@@ -58,17 +58,7 @@ public class HelperUser extends HelperBase{
         click(By.xpath("//button[text()='Registration']"));
     }
 
-    public void clickOkButton() {
-        try {
-            WebDriverWait wait = new WebDriverWait(wd, Duration.ofSeconds(5));
-            WebElement okButton = wait.until(ExpectedConditions.elementToBeClickable(
-                    By.xpath("//button[normalize-space(text())='Ok']")
-            ));
-            okButton.click();
-        } catch (Exception e) {
-            System.out.println("OK button not found or not clickable: " + e.getMessage());
-        }
-    }
+
 
     public boolean isNoContactsDisplayed() {
         WebDriverWait wait = new WebDriverWait(wd, Duration.ofSeconds(5));

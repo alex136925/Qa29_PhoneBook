@@ -50,4 +50,18 @@ public class HelperBase {
         }
         return  false;
     }
+
+    public void clickOkButton() {
+        try {
+            WebDriverWait wait = new WebDriverWait(wd, Duration.ofSeconds(5));
+            WebElement okButton = wait.until(ExpectedConditions.elementToBeClickable(
+                    By.xpath("//button[normalize-space(text())='Ok']")
+            ));
+            okButton.click();
+        } catch (Exception e) {
+            System.out.println("OK button not found or not clickable: " + e.getMessage());
+        }
+    }
+
+
 }
