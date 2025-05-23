@@ -17,6 +17,7 @@ public class LoginTests extends TestBase{
 
     @Test
     public void loginSuccess(){
+        logger.info("Start");
         User user = new User().setEmail("mara1@gmail.com").setPassword("Roma3456$");
         app.getHelperUser().openLoginRegistrationForm();
         app.getHelperUser().fillLoginRegistrationForm(user);
@@ -24,6 +25,7 @@ public class LoginTests extends TestBase{
 
 
         Assert.assertTrue(app.getHelperUser().isLogged());
+        logger.info("End");
     }
 
     @Test
