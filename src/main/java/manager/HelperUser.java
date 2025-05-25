@@ -51,7 +51,8 @@ public class HelperUser extends HelperBase{
 
     public void fillLoginRegistrationForm(User user) {
         type(By.name("email"), user.getEmail());
-        type(By.xpath("//input[last()]"), user.getPassword());
+       type(By.xpath("//input[last()]"), user.getPassword());
+        //type(By.xpath("//input[la()]"), user.getPassword());
     }
 
     public void submitRegistration(){

@@ -1,0 +1,32 @@
+20:45:28.962 INFO  manager.ApplicationManager - All tests run in Chrome Browser
+20:45:29.142 INFO  manager.WDListener - Url-->https://telranedu.web.app/
+20:45:29.942 INFO  tests.TestBase - === Starting test: loginSuccessModel ===
+20:45:34.991 INFO  manager.WDListener - Before find element -->By.xpath: //a[text() = 'LOGIN']
+20:45:35.009 INFO  manager.WDListener - After find element -->By.xpath: //a[text() = 'LOGIN']
+20:45:35.018 INFO  manager.WDListener - Location of element (2450, 34)
+20:45:35.033 INFO  manager.WDListener - Before click element -->atext = LOGIN
+20:45:35.081 INFO  manager.WDListener - After click element -->a
+20:45:35.081 INFO  manager.WDListener - Before find element -->By.name: email
+20:45:35.101 INFO  manager.WDListener - After find element -->By.name: email
+20:45:35.109 INFO  manager.WDListener - Location of element (1080, 250)
+20:45:35.121 INFO  manager.WDListener - Before click element -->inputtext = 
+20:45:35.167 INFO  manager.WDListener - After click element -->input
+20:45:35.225 INFO  manager.WDListener - sendKeys -->inputtext
+20:45:35.225 INFO  manager.WDListener - Before find element -->By.xpath: //input[la()]
+20:45:35.239 INFO  manager.WDListener - Huston, we have a problem!
+20:45:35.239 INFO  manager.WDListener - Object target --> ChromeDriver: chrome on windows (41983f91b187e3a617131fc65f995731)
+20:45:35.239 INFO  manager.WDListener - ******************************
+20:45:35.239 INFO  manager.WDListener - Method name -->findElement
+20:45:35.239 INFO  manager.WDListener - ******************************
+20:45:35.240 INFO  manager.WDListener - InvocationTargetExceptionorg.openqa.selenium.InvalidSelectorException: invalid selector: Unable to locate an element with the xpath expression //input[la()] because of the following error:
+SyntaxError: Failed to execute 'evaluate' on 'Document': The string '//input[la()]' is not a valid XPath expression.
+  (Session info: chrome=136.0.7103.114)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#invalid-selector-exception
+Build info: version: '4.16.1', revision: '9b4c83354e'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.21'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [41983f91b187e3a617131fc65f995731, findElement {using=xpath, value=//input[la()]}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 136.0.7103.114, chrome: {chromedriverVersion: 136.0.7103.92 (cb81a4cc5087..., userDataDir: C:\Users\kalin\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:50164}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:50164/devtoo..., se:cdpVersion: 136.0.7103.114, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 41983f91b187e3a617131fc65f995731
+20:45:35.240 INFO  manager.WDListener - ******************************
+20:45:35.505 INFO  manager.WDListener - Screen with error is --->src/test/screenshots/screen_1594.png

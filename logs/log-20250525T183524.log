@@ -1,0 +1,19 @@
+18:35:28.106 INFO  manager.ApplicationManager - All tests run in Chrome Browser
+18:35:29.003 INFO  tests.TestBase - === Starting test: loginSuccess ===
+18:35:34.052 INFO  tests.TestBase - Start test with name 'loginSuccess+'
+18:35:34.298 INFO  tests.TestBase - Test data --> email: mara1@gmail.com & password: Roma3456$ 
+18:35:35.610 INFO  tests.TestBase - Assert check is element button 'Sign out' present
+18:35:35.615 INFO  tests.TestBase - === Starting test: loginSuccessModel ===
+18:35:35.668 INFO  tests.TestBase - Before method finish logout
+18:35:35.908 INFO  tests.TestBase - Test data --> email: mara1@gmail.com & password: Roma3456$ 
+18:35:36.379 INFO  tests.TestBase - Assert check is element button 'Sign out' present
+18:35:36.380 INFO  tests.TestBase - === Starting test: loginUnregisteredUser ===
+18:35:36.420 INFO  tests.TestBase - Before method finish logout
+18:35:36.662 INFO  tests.TestBase - Test data --> email: fima13@gmail.com & password: Roma3456$ 
+18:35:37.212 INFO  tests.TestBase - Assert check is alert 'Wrong email or password' present
+18:35:37.213 INFO  tests.TestBase - === Starting test: loginWrongEmail ===
+18:35:42.516 INFO  tests.TestBase - Test data --> email: mara1gmail.com & password: Roma3456$ 
+18:35:43.070 INFO  tests.TestBase - Assert check is alert 'Wrong email or password' present
+18:35:43.071 INFO  tests.TestBase - === Starting test: loginWrongPassword ===
+18:35:48.384 INFO  tests.TestBase - Test data --> email: mara1gmail.com & password: Ro3456$ 
+18:35:48.931 INFO  tests.TestBase - Assert check is alert 'Wrong email or password' present

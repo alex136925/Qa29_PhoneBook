@@ -1,0 +1,185 @@
+20:59:59.354 INFO  manager.ApplicationManager - All tests run in Chrome Browser
+20:59:59.543 INFO  manager.WDListener - Url-->https://telranedu.web.app/
+21:00:00.478 INFO  tests.TestBase - === Starting test: loginSuccess ===
+21:00:05.531 INFO  manager.TestNGListener - Start test --->loginSuccess
+21:00:05.532 INFO  tests.TestBase - Start test with name 'loginSuccess+'
+21:00:05.533 INFO  manager.WDListener - Before find element -->By.xpath: //a[text() = 'LOGIN']
+21:00:05.550 INFO  manager.WDListener - After find element -->By.xpath: //a[text() = 'LOGIN']
+21:00:05.560 INFO  manager.WDListener - Location of element (2450, 34)
+21:00:05.575 INFO  manager.WDListener - Before click element -->atext = LOGIN
+21:00:05.635 INFO  manager.WDListener - After click element -->a
+21:00:05.635 INFO  manager.WDListener - Before find element -->By.name: email
+21:00:05.654 INFO  manager.WDListener - After find element -->By.name: email
+21:00:05.662 INFO  manager.WDListener - Location of element (1080, 250)
+21:00:05.672 INFO  manager.WDListener - Before click element -->inputtext = 
+21:00:05.722 INFO  manager.WDListener - After click element -->input
+21:00:05.780 INFO  manager.WDListener - sendKeys -->inputtext
+21:00:05.780 INFO  manager.WDListener - Before find element -->By.xpath: //input[last()]
+21:00:05.794 INFO  manager.WDListener - After find element -->By.xpath: //input[last()]
+21:00:05.800 INFO  manager.WDListener - Location of element (1080, 320)
+21:00:05.808 INFO  manager.WDListener - Before click element -->inputtext = 
+21:00:05.848 INFO  manager.WDListener - After click element -->input
+21:00:05.895 INFO  manager.WDListener - sendKeys -->inputtext
+21:00:05.895 INFO  tests.TestBase - Test data --> email: mara1@gmail.com & password: Roma3456$ 
+21:00:05.895 INFO  manager.WDListener - Before find element -->By.cssSelector: button[name='login']
+21:00:05.909 INFO  manager.WDListener - After find element -->By.cssSelector: button[name='login']
+21:00:05.917 INFO  manager.WDListener - Location of element (1080, 390)
+21:00:05.923 INFO  manager.WDListener - Before click element -->buttontext = Login
+21:00:07.176 INFO  tests.TestBase - Assert check is element button 'Sign out' present
+21:00:07.177 INFO  manager.TestNGListener - Success test --->loginSuccess
+21:00:07.179 INFO  tests.TestBase - === Starting test: loginSuccessModel ===
+21:00:07.191 INFO  manager.WDListener - Before find element -->By.xpath: //button[text()='Sign Out']
+21:00:07.205 INFO  manager.WDListener - After find element -->By.xpath: //button[text()='Sign Out']
+21:00:07.211 INFO  manager.WDListener - Location of element (2452, 39)
+21:00:07.221 INFO  manager.WDListener - Before click element -->buttontext = Sign Out
+21:00:07.268 INFO  tests.TestBase - Before method finish logout
+21:00:07.268 INFO  manager.TestNGListener - Start test --->loginSuccessModel
+21:00:07.268 INFO  manager.WDListener - Before find element -->By.xpath: //a[text() = 'LOGIN']
+21:00:07.286 INFO  manager.WDListener - After find element -->By.xpath: //a[text() = 'LOGIN']
+21:00:07.294 INFO  manager.WDListener - Location of element (2448, 33)
+21:00:07.302 INFO  manager.WDListener - Before click element -->atext = LOGIN
+21:00:07.345 INFO  manager.WDListener - After click element -->a
+21:00:07.345 INFO  manager.WDListener - Before find element -->By.name: email
+21:00:07.357 INFO  manager.WDListener - After find element -->By.name: email
+21:00:07.365 INFO  manager.WDListener - Location of element (1080, 250)
+21:00:07.376 INFO  manager.WDListener - Before click element -->inputtext = 
+21:00:07.434 INFO  manager.WDListener - After click element -->input
+21:00:07.485 INFO  manager.WDListener - sendKeys -->inputtext
+21:00:07.485 INFO  manager.WDListener - Before find element -->By.xpath: //input[last()]
+21:00:07.497 INFO  manager.WDListener - After find element -->By.xpath: //input[last()]
+21:00:07.505 INFO  manager.WDListener - Location of element (1080, 320)
+21:00:07.512 INFO  manager.WDListener - Before click element -->inputtext = 
+21:00:07.561 INFO  manager.WDListener - After click element -->input
+21:00:07.614 INFO  manager.WDListener - sendKeys -->inputtext
+21:00:07.614 INFO  tests.TestBase - Test data --> email: mara1@gmail.com & password: Roma3456$ 
+21:00:07.614 INFO  manager.WDListener - Before find element -->By.cssSelector: button[name='login']
+21:00:07.626 INFO  manager.WDListener - After find element -->By.cssSelector: button[name='login']
+21:00:07.632 INFO  manager.WDListener - Location of element (1080, 390)
+21:00:07.641 INFO  manager.WDListener - Before click element -->buttontext = Login
+21:00:08.072 INFO  tests.TestBase - Assert check is element button 'Sign out' present
+21:00:08.072 INFO  manager.TestNGListener - Success test --->loginSuccessModel
+21:00:08.072 INFO  tests.TestBase - === Starting test: loginUnregisteredUser ===
+21:00:08.080 INFO  manager.WDListener - Before find element -->By.xpath: //button[text()='Sign Out']
+21:00:08.089 INFO  manager.WDListener - After find element -->By.xpath: //button[text()='Sign Out']
+21:00:08.099 INFO  manager.WDListener - Location of element (2452, 39)
+21:00:08.108 INFO  manager.WDListener - Before click element -->buttontext = Sign Out
+21:00:08.144 INFO  tests.TestBase - Before method finish logout
+21:00:08.144 INFO  manager.TestNGListener - Start test --->loginUnregisteredUser
+21:00:08.144 INFO  manager.WDListener - Before find element -->By.xpath: //a[text() = 'LOGIN']
+21:00:08.154 INFO  manager.WDListener - After find element -->By.xpath: //a[text() = 'LOGIN']
+21:00:08.160 INFO  manager.WDListener - Location of element (2448, 33)
+21:00:08.168 INFO  manager.WDListener - Before click element -->atext = LOGIN
+21:00:08.208 INFO  manager.WDListener - After click element -->a
+21:00:08.208 INFO  manager.WDListener - Before find element -->By.name: email
+21:00:08.218 INFO  manager.WDListener - After find element -->By.name: email
+21:00:08.225 INFO  manager.WDListener - Location of element (1080, 250)
+21:00:08.236 INFO  manager.WDListener - Before click element -->inputtext = 
+21:00:08.283 INFO  manager.WDListener - After click element -->input
+21:00:08.329 INFO  manager.WDListener - sendKeys -->inputtext
+21:00:08.330 INFO  manager.WDListener - Before find element -->By.xpath: //input[last()]
+21:00:08.340 INFO  manager.WDListener - After find element -->By.xpath: //input[last()]
+21:00:08.344 INFO  manager.WDListener - Location of element (1080, 320)
+21:00:08.352 INFO  manager.WDListener - Before click element -->inputtext = 
+21:00:08.398 INFO  manager.WDListener - After click element -->input
+21:00:08.453 INFO  manager.WDListener - sendKeys -->inputtext
+21:00:08.453 INFO  tests.TestBase - Test data --> email: fima13@gmail.com & password: Roma3456$ 
+21:00:08.453 INFO  manager.WDListener - Before find element -->By.cssSelector: button[name='login']
+21:00:08.462 INFO  manager.WDListener - After find element -->By.cssSelector: button[name='login']
+21:00:08.470 INFO  manager.WDListener - Location of element (1080, 390)
+21:00:08.479 INFO  manager.WDListener - Before click element -->buttontext = Login
+21:00:08.521 INFO  manager.WDListener - Huston, we have a problem!
+21:00:08.521 INFO  manager.WDListener - Object target --> org.openqa.selenium.remote.RemoteWebDriver$RemoteTargetLocator@479111ba
+21:00:08.521 INFO  manager.WDListener - ******************************
+21:00:08.523 INFO  manager.WDListener - Method name -->alert
+21:00:08.523 INFO  manager.WDListener - ******************************
+21:00:08.523 INFO  manager.WDListener - InvocationTargetExceptionorg.openqa.selenium.NoAlertPresentException: no such alert
+  (Session info: chrome=136.0.7103.114)
+Build info: version: '4.16.1', revision: '9b4c83354e'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.21'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [57ec70cda75015b45ed6ef927d5dfc93, getAlertText {}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 136.0.7103.114, chrome: {chromedriverVersion: 136.0.7103.92 (cb81a4cc5087..., userDataDir: C:\Users\kalin\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:51031}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:51031/devtoo..., se:cdpVersion: 136.0.7103.114, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 57ec70cda75015b45ed6ef927d5dfc93
+21:00:08.523 INFO  manager.WDListener - ******************************
+21:00:09.037 INFO  tests.TestBase - Assert check is alert 'Wrong email or password' present
+21:00:09.037 INFO  manager.TestNGListener - Success test --->loginUnregisteredUser
+21:00:09.039 INFO  tests.TestBase - === Starting test: loginWrongEmail ===
+21:00:14.066 INFO  manager.TestNGListener - Start test --->loginWrongEmail
+21:00:14.066 INFO  manager.WDListener - Before find element -->By.xpath: //a[text() = 'LOGIN']
+21:00:14.076 INFO  manager.WDListener - After find element -->By.xpath: //a[text() = 'LOGIN']
+21:00:14.082 INFO  manager.WDListener - Location of element (2448, 33)
+21:00:14.092 INFO  manager.WDListener - Before click element -->atext = LOGIN
+21:00:14.135 INFO  manager.WDListener - After click element -->a
+21:00:14.136 INFO  manager.WDListener - Before find element -->By.name: email
+21:00:14.146 INFO  manager.WDListener - After find element -->By.name: email
+21:00:14.154 INFO  manager.WDListener - Location of element (1080, 281)
+21:00:14.166 INFO  manager.WDListener - Before click element -->inputtext = 
+21:00:14.219 INFO  manager.WDListener - After click element -->input
+21:00:14.302 INFO  manager.WDListener - sendKeys -->inputtext
+21:00:14.302 INFO  manager.WDListener - Before find element -->By.xpath: //input[last()]
+21:00:14.314 INFO  manager.WDListener - After find element -->By.xpath: //input[last()]
+21:00:14.323 INFO  manager.WDListener - Location of element (1080, 351)
+21:00:14.337 INFO  manager.WDListener - Before click element -->inputtext = 
+21:00:14.394 INFO  manager.WDListener - After click element -->input
+21:00:14.468 INFO  manager.WDListener - sendKeys -->inputtext
+21:00:14.469 INFO  tests.TestBase - Test data --> email: mara1gmail.com & password: Roma3456$ 
+21:00:14.469 INFO  manager.WDListener - Before find element -->By.cssSelector: button[name='login']
+21:00:14.480 INFO  manager.WDListener - After find element -->By.cssSelector: button[name='login']
+21:00:14.488 INFO  manager.WDListener - Location of element (1080, 421)
+21:00:14.500 INFO  manager.WDListener - Before click element -->buttontext = Login
+21:00:14.561 INFO  manager.WDListener - Huston, we have a problem!
+21:00:14.561 INFO  manager.WDListener - Object target --> org.openqa.selenium.remote.RemoteWebDriver$RemoteTargetLocator@6274670b
+21:00:14.561 INFO  manager.WDListener - ******************************
+21:00:14.561 INFO  manager.WDListener - Method name -->alert
+21:00:14.561 INFO  manager.WDListener - ******************************
+21:00:14.561 INFO  manager.WDListener - InvocationTargetExceptionorg.openqa.selenium.NoAlertPresentException: no such alert
+  (Session info: chrome=136.0.7103.114)
+Build info: version: '4.16.1', revision: '9b4c83354e'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.21'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [57ec70cda75015b45ed6ef927d5dfc93, getAlertText {}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 136.0.7103.114, chrome: {chromedriverVersion: 136.0.7103.92 (cb81a4cc5087..., userDataDir: C:\Users\kalin\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:51031}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:51031/devtoo..., se:cdpVersion: 136.0.7103.114, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 57ec70cda75015b45ed6ef927d5dfc93
+21:00:14.561 INFO  manager.WDListener - ******************************
+21:00:15.072 INFO  tests.TestBase - Assert check is alert 'Wrong email or password' present
+21:00:15.073 INFO  manager.TestNGListener - Success test --->loginWrongEmail
+21:00:15.073 INFO  tests.TestBase - === Starting test: loginWrongPassword ===
+21:00:20.082 INFO  manager.TestNGListener - Start test --->loginWrongPassword
+21:00:20.082 INFO  manager.WDListener - Before find element -->By.xpath: //a[text() = 'LOGIN']
+21:00:20.090 INFO  manager.WDListener - After find element -->By.xpath: //a[text() = 'LOGIN']
+21:00:20.096 INFO  manager.WDListener - Location of element (2448, 33)
+21:00:20.103 INFO  manager.WDListener - Before click element -->atext = LOGIN
+21:00:20.145 INFO  manager.WDListener - After click element -->a
+21:00:20.147 INFO  manager.WDListener - Before find element -->By.name: email
+21:00:20.154 INFO  manager.WDListener - After find element -->By.name: email
+21:00:20.163 INFO  manager.WDListener - Location of element (1080, 281)
+21:00:20.173 INFO  manager.WDListener - Before click element -->inputtext = 
+21:00:20.214 INFO  manager.WDListener - After click element -->input
+21:00:20.283 INFO  manager.WDListener - sendKeys -->inputtext
+21:00:20.283 INFO  manager.WDListener - Before find element -->By.xpath: //input[last()]
+21:00:20.290 INFO  manager.WDListener - After find element -->By.xpath: //input[last()]
+21:00:20.298 INFO  manager.WDListener - Location of element (1080, 351)
+21:00:20.307 INFO  manager.WDListener - Before click element -->inputtext = 
+21:00:20.352 INFO  manager.WDListener - After click element -->input
+21:00:20.414 INFO  manager.WDListener - sendKeys -->inputtext
+21:00:20.415 INFO  tests.TestBase - Test data --> email: mara1gmail.com & password: Ro3456$ 
+21:00:20.415 INFO  manager.WDListener - Before find element -->By.cssSelector: button[name='login']
+21:00:20.424 INFO  manager.WDListener - After find element -->By.cssSelector: button[name='login']
+21:00:20.432 INFO  manager.WDListener - Location of element (1080, 421)
+21:00:20.439 INFO  manager.WDListener - Before click element -->buttontext = Login
+21:00:20.482 INFO  manager.WDListener - Huston, we have a problem!
+21:00:20.482 INFO  manager.WDListener - Object target --> org.openqa.selenium.remote.RemoteWebDriver$RemoteTargetLocator@5b5b59
+21:00:20.482 INFO  manager.WDListener - ******************************
+21:00:20.482 INFO  manager.WDListener - Method name -->alert
+21:00:20.482 INFO  manager.WDListener - ******************************
+21:00:20.482 INFO  manager.WDListener - InvocationTargetExceptionorg.openqa.selenium.NoAlertPresentException: no such alert
+  (Session info: chrome=136.0.7103.114)
+Build info: version: '4.16.1', revision: '9b4c83354e'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.21'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [57ec70cda75015b45ed6ef927d5dfc93, getAlertText {}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 136.0.7103.114, chrome: {chromedriverVersion: 136.0.7103.92 (cb81a4cc5087..., userDataDir: C:\Users\kalin\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:51031}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:51031/devtoo..., se:cdpVersion: 136.0.7103.114, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 57ec70cda75015b45ed6ef927d5dfc93
+21:00:20.482 INFO  manager.WDListener - ******************************
+21:00:20.992 INFO  tests.TestBase - Assert check is alert 'Wrong email or password' present
+21:00:20.992 INFO  manager.TestNGListener - Success test --->loginWrongPassword

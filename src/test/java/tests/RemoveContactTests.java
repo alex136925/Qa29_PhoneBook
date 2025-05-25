@@ -38,6 +38,11 @@ public class RemoveContactTests extends TestBase{
     app.getHelperContact().removeContact();
     }
 
+    @Test
+    public  void removeFirstContact2(){
+        Assert.assertEquals(app.getHelperContact().removeOneContact(), 1);
+    }
+
 
 
     @Test (dependsOnMethods = "removeFirstContact")
@@ -52,6 +57,12 @@ public class RemoveContactTests extends TestBase{
         Assert.assertTrue(app.getHelperContact().areContactsEmpty());
     }
 
+    @Test
+    public  void removeAllContacts2(){
+        app.getHelperContact().removeAllContacts();
+        Assert.assertTrue(app.getHelperUser().isNoContactsDisplayed());
+
+    }
 
 
 }
