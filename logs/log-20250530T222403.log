@@ -1,0 +1,28 @@
+22:24:06.191 INFO  manager.ApplicationManager - All tests run in Chrome Browser
+22:24:06.384 INFO  manager.WDListener - Url-->https://telranedu.web.app/
+22:24:07.380 INFO  tests.TestBase - === Starting test: loginSuccessModel ===
+22:24:12.420 INFO  manager.TestNGListener - Start test --->loginSuccessModel
+22:24:12.420 INFO  manager.WDListener - Before find element -->By.xpath: //a[text() = 'LOGIN']
+22:24:12.442 INFO  manager.WDListener - After find element -->By.xpath: //a[text() = 'LOGIN']
+22:24:12.459 INFO  manager.WDListener - Location of element (2450, 34)
+22:24:12.470 INFO  manager.WDListener - Before click element -->atext = LOGIN
+22:24:12.527 INFO  manager.WDListener - After click element -->a
+22:24:12.527 INFO  manager.WDListener - Before find element -->By.name: email
+22:24:12.541 INFO  manager.WDListener - After find element -->By.name: email
+22:24:12.549 INFO  manager.WDListener - Location of element (1080, 250)
+22:24:12.559 INFO  manager.WDListener - Before click element -->inputtext = 
+22:24:12.600 INFO  manager.WDListener - After click element -->input
+22:24:12.660 INFO  manager.WDListener - sendKeys -->inputtext
+22:24:12.660 INFO  manager.WDListener - Before find element -->By.xpath: //input[last()]
+22:24:12.675 INFO  manager.WDListener - After find element -->By.xpath: //input[last()]
+22:24:12.681 INFO  manager.WDListener - Location of element (1080, 320)
+22:24:12.689 INFO  manager.WDListener - Before click element -->inputtext = 
+22:24:12.726 INFO  manager.WDListener - After click element -->input
+22:24:12.780 INFO  manager.WDListener - sendKeys -->inputtext
+22:24:12.780 INFO  tests.TestBase - Test data --> User{email='mara1@gmail.com', password='Roma3456$'}
+22:24:12.780 INFO  manager.WDListener - Before find element -->By.cssSelector: button[name='login']
+22:24:12.795 INFO  manager.WDListener - After find element -->By.cssSelector: button[name='login']
+22:24:12.800 INFO  manager.WDListener - Location of element (1080, 390)
+22:24:12.807 INFO  manager.WDListener - Before click element -->buttontext = Login
+22:24:14.584 INFO  tests.TestBase - Assert check is element button 'Sign out' present
+22:24:14.589 INFO  manager.TestNGListener - Success test --->loginSuccessModel

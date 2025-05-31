@@ -1,0 +1,28 @@
+21:48:04.176 INFO  manager.ApplicationManager - All tests run in Chrome Browser
+21:48:04.355 INFO  manager.WDListener - Url-->https://telranedu.web.app/
+21:48:05.331 INFO  tests.TestBase - === Starting test: loginSuccess ===
+21:48:10.341 INFO  manager.TestNGListener - Start test --->loginSuccess
+21:48:10.341 INFO  tests.TestBase - Start test with name 'loginSuccess+'
+21:48:10.341 INFO  manager.WDListener - Before find element -->By.xpath: //a[text() = 'LOGIN']
+21:48:10.363 INFO  manager.WDListener - After find element -->By.xpath: //a[text() = 'LOGIN']
+21:48:10.364 INFO  manager.WDListener - Location of element (2450, 34)
+21:48:10.384 INFO  manager.WDListener - Before click element -->atext = LOGIN
+21:48:10.437 INFO  manager.WDListener - After click element -->a
+21:48:10.439 INFO  manager.WDListener - Before find element -->By.name: email
+21:48:10.459 INFO  manager.WDListener - After find element -->By.name: email
+21:48:10.464 INFO  manager.WDListener - Location of element (1080, 250)
+21:48:10.475 INFO  manager.WDListener - Before click element -->inputtext = 
+21:48:10.519 INFO  manager.WDListener - After click element -->input
+21:48:10.577 INFO  manager.WDListener - sendKeys -->inputtext
+21:48:10.577 INFO  manager.WDListener - Before find element -->By.xpath: //input[last()]
+21:48:10.584 INFO  manager.WDListener - After find element -->By.xpath: //input[last()]
+21:48:10.597 INFO  manager.WDListener - Location of element (1080, 320)
+21:48:10.604 INFO  manager.WDListener - Before click element -->inputtext = 
+21:48:10.637 INFO  manager.WDListener - After click element -->input
+21:48:10.684 INFO  manager.WDListener - sendKeys -->inputtext
+21:48:10.684 INFO  tests.TestBase - Test data --> email: "mara1@gmail.com & password: Roma3456$
+21:48:10.684 INFO  manager.WDListener - Before find element -->By.cssSelector: button[name='login']
+21:48:10.705 INFO  manager.WDListener - After find element -->By.cssSelector: button[name='login']
+21:48:10.711 INFO  manager.WDListener - Location of element (1080, 390)
+21:48:10.717 INFO  manager.WDListener - Before click element -->buttontext = Login
+21:48:12.096 INFO  manager.TestNGListener - Fail test --->loginSuccess
