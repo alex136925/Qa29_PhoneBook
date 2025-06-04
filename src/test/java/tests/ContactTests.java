@@ -1,5 +1,6 @@
 package tests;
 
+import manager.DataProviderContact;
 import models.Contact;
 import models.User;
 import org.openqa.selenium.By;
@@ -41,6 +42,17 @@ public class ContactTests extends TestBase{
         app.getHelperContact().clickSaveButton();
         Assert.assertTrue(app.getHelperContact().isRegisteredNamePresent("John"));
         Assert.assertTrue(app.getHelperContact().isRegisteredPhonePresent("88005553535"));
+
+    }
+
+    @Test (dataProvider = "contactCSV", dataProviderClass = DataProviderContact.class)
+    public  void contactSuccessAllFieldsCSV(Contact contact){
+
+        app.getHelperContact().openContactForm();
+        app.getHelperContact().fillContactForm(contact);
+        app.getHelperContact().clickSaveButton();
+        Assert.assertTrue(app.getHelperContact().isRegisteredNamePresent(contact.getName()));
+        Assert.assertTrue(app.getHelperContact().isRegisteredPhonePresent(contact.getPhone()));
 
     }
 
@@ -100,16 +112,10 @@ public class ContactTests extends TestBase{
 
     }
 
-    @Test
-    public  void contactFailWrongPhone(){
-        Contact contact = Contact.builder()
-                .name("Samantha")
-                .lastName("Smith")
-                .phone("5553556")
-                .email("money2@yahoo.com")
-                .address("London, UK")
-                .build();
+    @Test(dataProvider = "contactWrongPhone", dataProviderClass = DataProviderContact.class)
+    public  void contactFailWrongPhone(Contact contact){
 
+        logger.info("Test run with data" + contact.toString());
         app.getHelperContact().openContactForm();
         app.getHelperContact().fillContactForm(contact);
         app.getHelperContact().clickSaveButton();

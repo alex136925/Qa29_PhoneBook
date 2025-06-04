@@ -37,8 +37,8 @@ public class LoginTests extends TestBase{
 
 
 
-    @Test(dataProvider = "loginModels", dataProviderClass = DataProviderUser.class)
-    public void loginSuccessModel(User user){
+    @Test(dataProvider = "loginFile", dataProviderClass = DataProviderUser.class)
+    public void loginSuccessModelDPF(User user){
         app.getHelperUser().openLoginRegistrationForm();
         app.getHelperUser().fillLoginRegistrationForm(user);
         logger.info("Test data --> " +user.toString());

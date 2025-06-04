@@ -1,0 +1,47 @@
+20:34:54.174 INFO  manager.ApplicationManager - All tests run in Chrome Browser
+20:34:54.345 INFO  manager.WDListener - Url-->https://telranedu.web.app/
+20:34:55.035 INFO  tests.TestBase - === Starting test: loginSuccessModelDPF ===
+20:35:00.096 INFO  manager.TestNGListener - Start test --->loginSuccessModelDPF
+20:35:00.097 INFO  manager.WDListener - Before find element -->By.xpath: //a[text() = 'LOGIN']
+20:35:00.114 INFO  manager.WDListener - After find element -->By.xpath: //a[text() = 'LOGIN']
+20:35:00.125 INFO  manager.WDListener - Location of element (2450, 34)
+20:35:00.140 INFO  manager.WDListener - Before click element -->atext = LOGIN
+20:35:00.191 INFO  manager.WDListener - After click element -->a
+20:35:00.192 INFO  manager.WDListener - Before find element -->By.name: email
+20:35:00.209 INFO  manager.WDListener - After find element -->By.name: email
+20:35:00.216 INFO  manager.WDListener - Location of element (1080, 250)
+20:35:00.226 INFO  manager.WDListener - Before click element -->inputtext = 
+20:35:00.271 INFO  manager.WDListener - After click element -->input
+20:35:00.334 INFO  manager.WDListener - sendKeys -->inputtext
+20:35:00.334 INFO  manager.WDListener - Before find element -->By.xpath: //input[last()]
+20:35:00.346 INFO  manager.WDListener - After find element -->By.xpath: //input[last()]
+20:35:00.352 INFO  manager.WDListener - Location of element (1080, 320)
+20:35:00.361 INFO  manager.WDListener - Before click element -->inputtext = 
+20:35:00.399 INFO  manager.WDListener - After click element -->input
+20:35:00.449 INFO  manager.WDListener - sendKeys -->inputtext
+20:35:00.449 INFO  tests.TestBase - Test data --> User{email=' margo@gmail.com', password='Mmar123465$'}
+20:35:00.450 INFO  manager.WDListener - Before find element -->By.cssSelector: button[name='login']
+20:35:00.462 INFO  manager.WDListener - After find element -->By.cssSelector: button[name='login']
+20:35:00.467 INFO  manager.WDListener - Location of element (1080, 390)
+20:35:00.475 INFO  manager.WDListener - Before click element -->buttontext = Login
+20:35:01.638 INFO  manager.TestNGListener - Fail test --->loginSuccessModelDPF
+20:35:01.639 INFO  tests.TestBase - === Starting test: loginSuccessModelDPF ===
+20:35:01.649 INFO  manager.WDListener - Huston, we have a problem!
+20:35:01.650 INFO  manager.WDListener - Object target --> ChromeDriver: chrome on windows (da26689cea08cefa7e6771dcf12ff244)
+20:35:01.650 INFO  manager.WDListener - ******************************
+20:35:01.650 INFO  manager.WDListener - Method name -->findElements
+20:35:01.650 INFO  manager.WDListener - ******************************
+20:35:01.650 INFO  manager.WDListener - InvocationTargetExceptionorg.openqa.selenium.UnhandledAlertException: unexpected alert open: {Alert text : Wrong email or password}
+  (Session info: chrome=137.0.7151.41): Wrong email or password
+Build info: version: '4.16.1', revision: '9b4c83354e'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.21'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [da26689cea08cefa7e6771dcf12ff244, findElements {using=xpath, value=//button[text()='Sign Out']}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 137.0.7151.41, chrome: {chromedriverVersion: 137.0.7151.40 (84781974514a..., userDataDir: C:\Users\kalin\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:61241}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:61241/devtoo..., se:cdpVersion: 137.0.7151.41, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: da26689cea08cefa7e6771dcf12ff244
+20:35:01.650 INFO  manager.WDListener - ******************************
+20:35:02.059 INFO  manager.WDListener - Screen with error is --->src/test/screenshots/screen_1996.png
+20:35:02.061 INFO  manager.TestNGListener - Start test --->loginSuccessModelDPF
+20:35:02.061 INFO  manager.TestNGListener - Skipped test --->loginSuccessModelDPF
+20:35:02.061 INFO  manager.TestNGListener - Start test --->loginSuccessModelDPF
+20:35:02.062 INFO  manager.TestNGListener - Skipped test --->loginSuccessModelDPF
