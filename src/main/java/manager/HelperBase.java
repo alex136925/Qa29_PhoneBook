@@ -21,15 +21,13 @@ public class HelperBase {
     }
 
     public void type(By locator, String text) {
-        WebElement element = wd.findElement(locator);
+        WebDriverWait wait = new WebDriverWait(wd, Duration.ofSeconds(10));
+        WebElement element = wait.until(ExpectedConditions.visibilityOfElementLocated(locator));
 
-            element.click();
-            element.clear();
-            if (text != null) {
-                element.sendKeys(text);
-            }
-
+        element.clear();
+        element.sendKeys(text);
     }
+
 
     public void click(By locator){
         WebElement element = wd.findElement(locator);

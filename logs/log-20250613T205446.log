@@ -1,0 +1,147 @@
+20:54:47.310 INFO  manager.ApplicationManager - All tests run in Chrome Browser
+20:54:47.501 INFO  manager.WDListener - Url-->https://telranedu.web.app/
+20:54:48.185 INFO  manager.WDListener - Before find element -->By.xpath: //a[text() = 'LOGIN']
+20:54:48.202 INFO  manager.WDListener - After find element -->By.xpath: //a[text() = 'LOGIN']
+20:54:48.208 INFO  manager.WDListener - Location of element (2450, 34)
+20:54:48.212 INFO  manager.WDListener - Before click element -->atext = LOGIN
+20:54:48.272 INFO  manager.WDListener - After click element -->a
+20:54:48.272 INFO  manager.WDListener - Before find element -->By.name: email
+20:54:48.287 INFO  manager.WDListener - After find element -->By.name: email
+20:54:48.291 INFO  manager.WDListener - Location of element (1080, 250)
+20:54:48.291 INFO  manager.WDListener - Before click element -->inputtext = 
+20:54:48.341 INFO  manager.WDListener - After click element -->input
+20:54:48.395 INFO  manager.WDListener - sendKeys -->inputtext
+20:54:48.395 INFO  manager.WDListener - Before find element -->By.xpath: //input[last()]
+20:54:48.419 INFO  manager.WDListener - After find element -->By.xpath: //input[last()]
+20:54:48.424 INFO  manager.WDListener - Location of element (1080, 320)
+20:54:48.431 INFO  manager.WDListener - Before click element -->inputtext = 
+20:54:48.465 INFO  manager.WDListener - After click element -->input
+20:54:48.494 INFO  manager.WDListener - sendKeys -->inputtext
+20:54:48.494 INFO  manager.WDListener - Before find element -->By.cssSelector: button[name='login']
+20:54:48.517 INFO  manager.WDListener - After find element -->By.cssSelector: button[name='login']
+20:54:48.522 INFO  manager.WDListener - Location of element (1080, 390)
+20:54:48.530 INFO  manager.WDListener - Before click element -->buttontext = Login
+20:54:48.572 INFO  manager.WDListener - Before find element -->By.xpath: //a[@href='/add']
+20:54:49.982 INFO  manager.WDListener - After find element -->By.xpath: //a[@href='/add']
+20:54:49.988 INFO  manager.WDListener - Location of element (2023, 34)
+20:54:50.014 INFO  manager.WDListener - Before click element -->atext = ADD
+20:54:50.061 INFO  manager.WDListener - After click element -->a
+20:54:50.061 INFO  manager.WDListener - Before find element -->By.xpath: //input[@placeholder='Name']
+20:54:50.074 INFO  manager.WDListener - After find element -->By.xpath: //input[@placeholder='Name']
+20:54:50.079 INFO  manager.WDListener - Location of element (396, 165)
+20:54:50.141 INFO  manager.WDListener - sendKeys -->inputtext
+20:54:50.141 INFO  manager.WDListener - Before find element -->By.xpath: //input[@placeholder='Last Name']
+20:54:50.154 INFO  manager.WDListener - After find element -->By.xpath: //input[@placeholder='Last Name']
+20:54:50.162 INFO  manager.WDListener - Location of element (396, 239)
+20:54:50.172 INFO  manager.WDListener - Before click element -->inputtext = 
+20:54:50.212 INFO  manager.WDListener - After click element -->input
+20:54:50.255 INFO  manager.WDListener - sendKeys -->inputtext
+20:54:50.255 INFO  manager.WDListener - Before find element -->By.xpath: //input[@placeholder='Phone']
+20:54:50.268 INFO  manager.WDListener - After find element -->By.xpath: //input[@placeholder='Phone']
+20:54:50.278 INFO  manager.WDListener - Location of element (396, 313)
+20:54:50.288 INFO  manager.WDListener - Before click element -->inputtext = 
+20:54:50.326 INFO  manager.WDListener - After click element -->input
+20:54:50.362 INFO  manager.WDListener - sendKeys -->inputtext
+20:54:50.362 INFO  manager.WDListener - Before find element -->By.xpath: //input[@placeholder='email']
+20:54:50.384 INFO  manager.WDListener - After find element -->By.xpath: //input[@placeholder='email']
+20:54:50.390 INFO  manager.WDListener - Location of element (396, 387)
+20:54:50.400 INFO  manager.WDListener - Before click element -->inputtext = 
+20:54:50.433 INFO  manager.WDListener - After click element -->input
+20:54:50.462 INFO  manager.WDListener - sendKeys -->inputtext
+20:54:50.462 INFO  manager.WDListener - Before find element -->By.xpath: //input[@placeholder='Address']
+20:54:50.484 INFO  manager.WDListener - After find element -->By.xpath: //input[@placeholder='Address']
+20:54:50.495 INFO  manager.WDListener - Location of element (396, 461)
+20:54:50.503 INFO  manager.WDListener - Before click element -->inputtext = 
+20:54:50.535 INFO  manager.WDListener - After click element -->input
+20:54:50.565 INFO  manager.WDListener - sendKeys -->inputtext
+20:54:50.565 INFO  manager.WDListener - Before find element -->By.xpath: //input[@placeholder='description']
+20:54:50.583 INFO  manager.WDListener - After find element -->By.xpath: //input[@placeholder='description']
+20:54:50.583 INFO  manager.WDListener - Location of element (396, 535)
+20:54:50.597 INFO  manager.WDListener - Before click element -->inputtext = 
+20:54:50.628 INFO  manager.WDListener - After click element -->input
+20:54:50.661 INFO  manager.WDListener - sendKeys -->inputtext
+20:54:50.661 INFO  manager.WDListener - Before find element -->By.xpath: //*[text()='Save']
+20:54:50.681 INFO  manager.WDListener - After find element -->By.xpath: //*[text()='Save']
+20:54:50.686 INFO  manager.WDListener - Location of element (1271, 622)
+20:54:50.702 INFO  manager.WDListener - Before click element -->btext = Save
+20:54:50.730 INFO  manager.WDListener - After click element -->b
+20:54:50.730 INFO  manager.WDListener - Before find element -->By.xpath: //a[@href='/add']
+20:54:50.730 INFO  manager.WDListener - After find element -->By.xpath: //a[@href='/add']
+20:54:50.750 INFO  manager.WDListener - Location of element (2021, 33)
+20:54:51.278 INFO  manager.WDListener - Before find element -->By.xpath: //a[@href='/add']
+20:54:51.292 INFO  manager.WDListener - After find element -->By.xpath: //a[@href='/add']
+20:54:51.294 INFO  manager.WDListener - Location of element (2021, 33)
+20:54:51.309 INFO  manager.WDListener - Before click element -->atext = ADD
+20:54:51.354 INFO  manager.WDListener - After click element -->a
+20:54:51.354 INFO  manager.WDListener - Before find element -->By.xpath: //input[@placeholder='Name']
+20:54:51.363 INFO  manager.WDListener - After find element -->By.xpath: //input[@placeholder='Name']
+20:54:51.370 INFO  manager.WDListener - Location of element (396, 165)
+20:54:51.390 INFO  manager.WDListener - Huston, we have a problem!
+20:54:51.390 INFO  manager.WDListener - Object target --> [[ChromeDriver: chrome on windows (19ed017ea09bd0bef4c5d338ab8a6359)] -> xpath: //input[@placeholder='Name']]
+20:54:51.390 INFO  manager.WDListener - ******************************
+20:54:51.390 INFO  manager.WDListener - Method name -->isDisplayed
+20:54:51.390 INFO  manager.WDListener - ******************************
+20:54:51.391 INFO  manager.WDListener - InvocationTargetExceptionorg.openqa.selenium.StaleElementReferenceException: stale element reference: stale element not found in the current frame
+  (Session info: chrome=137.0.7151.104)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#stale-element-reference-exception
+Build info: version: '4.16.1', revision: '9b4c83354e'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.21'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [19ed017ea09bd0bef4c5d338ab8a6359, isElementDisplayed {id=f.BEA6FD739E3724ED253B48E5B76BC756.d.FC7061680D4EDE6B97BC6B4C2BB8B223.e.71}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 137.0.7151.104, chrome: {chromedriverVersion: 137.0.7151.40 (84781974514a..., userDataDir: C:\Users\kalin\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:54500}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:54500/devtoo..., se:cdpVersion: 137.0.7151.104, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on windows (19ed017ea09bd0bef4c5d338ab8a6359)] -> xpath: //input[@placeholder='Name']]
+Session ID: 19ed017ea09bd0bef4c5d338ab8a6359
+20:54:51.391 INFO  manager.WDListener - ******************************
+20:54:51.896 INFO  manager.WDListener - Before find element -->By.xpath: //input[@placeholder='Name']
+20:54:56.909 INFO  manager.WDListener - Huston, we have a problem!
+20:54:56.909 INFO  manager.WDListener - Object target --> ChromeDriver: chrome on windows (19ed017ea09bd0bef4c5d338ab8a6359)
+20:54:56.909 INFO  manager.WDListener - ******************************
+20:54:56.909 INFO  manager.WDListener - Method name -->findElement
+20:54:56.909 INFO  manager.WDListener - ******************************
+20:54:56.909 INFO  manager.WDListener - InvocationTargetExceptionorg.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//input[@placeholder='Name']"}
+  (Session info: chrome=137.0.7151.104)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.16.1', revision: '9b4c83354e'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.21'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [19ed017ea09bd0bef4c5d338ab8a6359, findElement {using=xpath, value=//input[@placeholder='Name']}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 137.0.7151.104, chrome: {chromedriverVersion: 137.0.7151.40 (84781974514a..., userDataDir: C:\Users\kalin\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:54500}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:54500/devtoo..., se:cdpVersion: 137.0.7151.104, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 19ed017ea09bd0bef4c5d338ab8a6359
+20:54:56.909 INFO  manager.WDListener - ******************************
+20:54:57.203 INFO  manager.WDListener - Screen with error is --->src/test/screenshots/screen_1342.png
+20:54:57.708 INFO  manager.WDListener - Before find element -->By.xpath: //input[@placeholder='Name']
+20:55:02.731 INFO  manager.WDListener - Huston, we have a problem!
+20:55:02.731 INFO  manager.WDListener - Object target --> ChromeDriver: chrome on windows (19ed017ea09bd0bef4c5d338ab8a6359)
+20:55:02.731 INFO  manager.WDListener - ******************************
+20:55:02.731 INFO  manager.WDListener - Method name -->findElement
+20:55:02.731 INFO  manager.WDListener - ******************************
+20:55:02.731 INFO  manager.WDListener - InvocationTargetExceptionorg.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//input[@placeholder='Name']"}
+  (Session info: chrome=137.0.7151.104)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.16.1', revision: '9b4c83354e'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.21'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [19ed017ea09bd0bef4c5d338ab8a6359, findElement {using=xpath, value=//input[@placeholder='Name']}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 137.0.7151.104, chrome: {chromedriverVersion: 137.0.7151.40 (84781974514a..., userDataDir: C:\Users\kalin\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:54500}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:54500/devtoo..., se:cdpVersion: 137.0.7151.104, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 19ed017ea09bd0bef4c5d338ab8a6359
+20:55:02.731 INFO  manager.WDListener - ******************************
+20:55:03.018 INFO  manager.WDListener - Screen with error is --->src/test/screenshots/screen_1215.png
+20:55:03.529 INFO  manager.WDListener - Before find element -->By.xpath: //input[@placeholder='Name']
+20:55:08.528 INFO  manager.WDListener - Huston, we have a problem!
+20:55:08.528 INFO  manager.WDListener - Object target --> ChromeDriver: chrome on windows (19ed017ea09bd0bef4c5d338ab8a6359)
+20:55:08.528 INFO  manager.WDListener - ******************************
+20:55:08.528 INFO  manager.WDListener - Method name -->findElement
+20:55:08.528 INFO  manager.WDListener - ******************************
+20:55:08.528 INFO  manager.WDListener - InvocationTargetExceptionorg.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//input[@placeholder='Name']"}
+  (Session info: chrome=137.0.7151.104)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.16.1', revision: '9b4c83354e'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.21'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [19ed017ea09bd0bef4c5d338ab8a6359, findElement {using=xpath, value=//input[@placeholder='Name']}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 137.0.7151.104, chrome: {chromedriverVersion: 137.0.7151.40 (84781974514a..., userDataDir: C:\Users\kalin\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:54500}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:54500/devtoo..., se:cdpVersion: 137.0.7151.104, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 19ed017ea09bd0bef4c5d338ab8a6359
+20:55:08.528 INFO  manager.WDListener - ******************************
+20:55:08.885 INFO  manager.WDListener - Screen with error is --->src/test/screenshots/screen_1595.png
+20:55:08.901 INFO  manager.TestNGListener - Start test --->removeFirstContact
+20:55:08.901 INFO  manager.TestNGListener - Skipped test --->removeFirstContact

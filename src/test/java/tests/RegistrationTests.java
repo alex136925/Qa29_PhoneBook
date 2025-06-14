@@ -8,14 +8,14 @@ import org.testng.annotations.Test;
 import java.util.Random;
 
 public class RegistrationTests extends TestBase{
-@BeforeMethod
+@BeforeMethod(alwaysRun = true)
 public void preCondition(){
     if (app.getHelperUser().isLogged()){
         app.getHelperUser().logout();
     }
 }
 
-@Test
+@Test(groups = {"smoke"})
 public void registrationSuccess(){
     int i = new Random().nextInt(1000)+1000;
     User user = new User().setEmail("don" + i + "@gmail.com").setPassword("Ddon12345$");
@@ -47,7 +47,7 @@ public void registrationSuccess(){
         app.getHelperUser().clickOkButton();
     }
 
-    @Test
+    @Test(groups = {"smoke"})
     public void registrationExistUser() {
         User user = new User().setEmail("mara1@gmail.com").setPassword("Roma3456$");
         app.getHelperUser().openLoginRegistrationForm();

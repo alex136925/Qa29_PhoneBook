@@ -1,0 +1,10 @@
+00:31:24.416 INFO  manager.TestNGListener - Start test --->loginWrongEmail
+00:31:24.426 INFO  manager.TestNGListener - Fail test --->loginWrongEmail
+00:31:24.426 INFO  manager.TestNGListener - Start test --->registrationExistUser
+00:31:24.426 INFO  manager.TestNGListener - Fail test --->registrationExistUser
+00:31:24.426 INFO  manager.TestNGListener - Start test --->registrationSuccess
+00:31:24.426 INFO  manager.TestNGListener - Fail test --->registrationSuccess
+00:31:24.431 INFO  manager.TestNGListener - Start test --->contactSuccessAll
+00:31:24.431 INFO  manager.TestNGListener - Fail test --->contactSuccessAll
+00:31:24.431 INFO  manager.TestNGListener - Start test --->removeFirstContact2
+00:31:24.431 INFO  manager.TestNGListener - Fail test --->removeFirstContact2

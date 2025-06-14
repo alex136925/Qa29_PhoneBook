@@ -1,0 +1,343 @@
+21:04:13.299 INFO  manager.ApplicationManager - All tests run in Chrome Browser
+21:04:13.480 INFO  manager.WDListener - Url-->https://telranedu.web.app/
+21:04:14.298 INFO  manager.WDListener - Before find element -->By.xpath: //a[text() = 'LOGIN']
+21:04:14.321 INFO  manager.WDListener - After find element -->By.xpath: //a[text() = 'LOGIN']
+21:04:14.330 INFO  manager.WDListener - Location of element (2450, 34)
+21:04:14.342 INFO  manager.WDListener - Before click element -->atext = LOGIN
+21:04:14.384 INFO  manager.WDListener - After click element -->a
+21:04:14.384 INFO  manager.WDListener - Before find element -->By.name: email
+21:04:14.403 INFO  manager.WDListener - After find element -->By.name: email
+21:04:14.409 INFO  manager.WDListener - Location of element (1080, 250)
+21:04:14.419 INFO  manager.WDListener - Before click element -->inputtext = 
+21:04:14.459 INFO  manager.WDListener - After click element -->input
+21:04:14.509 INFO  manager.WDListener - sendKeys -->inputtext
+21:04:14.509 INFO  manager.WDListener - Before find element -->By.xpath: //input[last()]
+21:04:14.531 INFO  manager.WDListener - After find element -->By.xpath: //input[last()]
+21:04:14.539 INFO  manager.WDListener - Location of element (1080, 320)
+21:04:14.546 INFO  manager.WDListener - Before click element -->inputtext = 
+21:04:14.578 INFO  manager.WDListener - After click element -->input
+21:04:14.623 INFO  manager.WDListener - sendKeys -->inputtext
+21:04:14.623 INFO  manager.WDListener - Before find element -->By.cssSelector: button[name='login']
+21:04:14.643 INFO  manager.WDListener - After find element -->By.cssSelector: button[name='login']
+21:04:14.648 INFO  manager.WDListener - Location of element (1080, 390)
+21:04:14.655 INFO  manager.WDListener - Before click element -->buttontext = Login
+21:04:14.695 INFO  manager.WDListener - Before find element -->By.xpath: //a[@href='/add']
+21:04:15.950 INFO  manager.WDListener - After find element -->By.xpath: //a[@href='/add']
+21:04:15.956 INFO  manager.WDListener - Location of element (2023, 34)
+21:04:15.985 INFO  manager.WDListener - Before click element -->atext = ADD
+21:04:16.020 INFO  manager.WDListener - After click element -->a
+21:04:16.020 INFO  manager.WDListener - Before find element -->By.xpath: //input[@placeholder='Name']
+21:04:16.033 INFO  manager.WDListener - After find element -->By.xpath: //input[@placeholder='Name']
+21:04:16.039 INFO  manager.WDListener - Location of element (396, 165)
+21:04:16.114 INFO  manager.WDListener - sendKeys -->inputtext
+21:04:16.115 INFO  manager.WDListener - Before find element -->By.xpath: //input[@placeholder='Last Name']
+21:04:16.126 INFO  manager.WDListener - After find element -->By.xpath: //input[@placeholder='Last Name']
+21:04:16.132 INFO  manager.WDListener - Location of element (396, 239)
+21:04:16.160 INFO  manager.WDListener - Before click element -->inputtext = 
+21:04:16.196 INFO  manager.WDListener - After click element -->input
+21:04:16.237 INFO  manager.WDListener - sendKeys -->inputtext
+21:04:16.237 INFO  manager.WDListener - Before find element -->By.xpath: //input[@placeholder='Phone']
+21:04:16.250 INFO  manager.WDListener - After find element -->By.xpath: //input[@placeholder='Phone']
+21:04:16.254 INFO  manager.WDListener - Location of element (396, 313)
+21:04:16.262 INFO  manager.WDListener - Before click element -->inputtext = 
+21:04:16.298 INFO  manager.WDListener - After click element -->input
+21:04:16.343 INFO  manager.WDListener - sendKeys -->inputtext
+21:04:16.343 INFO  manager.WDListener - Before find element -->By.xpath: //input[@placeholder='email']
+21:04:16.343 INFO  manager.WDListener - After find element -->By.xpath: //input[@placeholder='email']
+21:04:16.362 INFO  manager.WDListener - Location of element (396, 387)
+21:04:16.369 INFO  manager.WDListener - Before click element -->inputtext = 
+21:04:16.396 INFO  manager.WDListener - After click element -->input
+21:04:16.443 INFO  manager.WDListener - sendKeys -->inputtext
+21:04:16.443 INFO  manager.WDListener - Before find element -->By.xpath: //input[@placeholder='Address']
+21:04:16.463 INFO  manager.WDListener - After find element -->By.xpath: //input[@placeholder='Address']
+21:04:16.472 INFO  manager.WDListener - Location of element (396, 461)
+21:04:16.483 INFO  manager.WDListener - Before click element -->inputtext = 
+21:04:16.516 INFO  manager.WDListener - After click element -->input
+21:04:16.545 INFO  manager.WDListener - sendKeys -->inputtext
+21:04:16.545 INFO  manager.WDListener - Before find element -->By.xpath: //input[@placeholder='description']
+21:04:16.566 INFO  manager.WDListener - After find element -->By.xpath: //input[@placeholder='description']
+21:04:16.571 INFO  manager.WDListener - Location of element (396, 535)
+21:04:16.577 INFO  manager.WDListener - Before click element -->inputtext = 
+21:04:16.611 INFO  manager.WDListener - After click element -->input
+21:04:16.644 INFO  manager.WDListener - sendKeys -->inputtext
+21:04:16.644 INFO  manager.WDListener - Before find element -->By.xpath: //*[text()='Save']
+21:04:16.664 INFO  manager.WDListener - After find element -->By.xpath: //*[text()='Save']
+21:04:16.669 INFO  manager.WDListener - Location of element (1271, 622)
+21:04:16.685 INFO  manager.WDListener - Before click element -->btext = Save
+21:04:16.731 INFO  manager.WDListener - After click element -->b
+21:04:16.731 INFO  manager.WDListener - Before find element -->By.xpath: //a[@href='/add']
+21:04:16.745 INFO  manager.WDListener - After find element -->By.xpath: //a[@href='/add']
+21:04:16.752 INFO  manager.WDListener - Location of element (2021, 33)
+21:04:17.273 INFO  manager.WDListener - Before find element -->By.xpath: //a[@href='/add']
+21:04:17.315 INFO  manager.WDListener - After find element -->By.xpath: //a[@href='/add']
+21:04:17.319 INFO  manager.WDListener - Location of element (2023, 34)
+21:04:17.326 INFO  manager.WDListener - Before click element -->atext = ADD
+21:04:17.377 INFO  manager.WDListener - After click element -->a
+21:04:17.377 INFO  manager.WDListener - Before find element -->By.xpath: //input[@placeholder='Name']
+21:04:17.385 INFO  manager.WDListener - After find element -->By.xpath: //input[@placeholder='Name']
+21:04:17.391 INFO  manager.WDListener - Location of element (396, 165)
+21:04:17.444 INFO  manager.WDListener - sendKeys -->inputtext
+21:04:17.444 INFO  manager.WDListener - Before find element -->By.xpath: //input[@placeholder='Last Name']
+21:04:17.456 INFO  manager.WDListener - After find element -->By.xpath: //input[@placeholder='Last Name']
+21:04:17.463 INFO  manager.WDListener - Location of element (396, 239)
+21:04:17.471 INFO  manager.WDListener - Before click element -->inputtext = 
+21:04:17.503 INFO  manager.WDListener - After click element -->input
+21:04:17.544 INFO  manager.WDListener - sendKeys -->inputtext
+21:04:17.544 INFO  manager.WDListener - Before find element -->By.xpath: //input[@placeholder='Phone']
+21:04:17.552 INFO  manager.WDListener - After find element -->By.xpath: //input[@placeholder='Phone']
+21:04:17.557 INFO  manager.WDListener - Location of element (396, 313)
+21:04:17.564 INFO  manager.WDListener - Before click element -->inputtext = 
+21:04:17.596 INFO  manager.WDListener - After click element -->input
+21:04:17.678 INFO  manager.WDListener - sendKeys -->inputtext
+21:04:17.678 INFO  manager.WDListener - Before find element -->By.xpath: //input[@placeholder='email']
+21:04:17.691 INFO  manager.WDListener - After find element -->By.xpath: //input[@placeholder='email']
+21:04:17.697 INFO  manager.WDListener - Location of element (396, 387)
+21:04:17.704 INFO  manager.WDListener - Before click element -->inputtext = 
+21:04:17.729 INFO  manager.WDListener - After click element -->input
+21:04:17.778 INFO  manager.WDListener - sendKeys -->inputtext
+21:04:17.778 INFO  manager.WDListener - Before find element -->By.xpath: //input[@placeholder='Address']
+21:04:17.791 INFO  manager.WDListener - After find element -->By.xpath: //input[@placeholder='Address']
+21:04:17.798 INFO  manager.WDListener - Location of element (396, 461)
+21:04:17.804 INFO  manager.WDListener - Before click element -->inputtext = 
+21:04:17.862 INFO  manager.WDListener - After click element -->input
+21:04:17.902 INFO  manager.WDListener - sendKeys -->inputtext
+21:04:17.902 INFO  manager.WDListener - Before find element -->By.xpath: //input[@placeholder='description']
+21:04:17.904 INFO  manager.WDListener - After find element -->By.xpath: //input[@placeholder='description']
+21:04:17.915 INFO  manager.WDListener - Location of element (396, 535)
+21:04:17.922 INFO  manager.WDListener - Before click element -->inputtext = 
+21:04:18.001 INFO  manager.WDListener - After click element -->input
+21:04:18.046 INFO  manager.WDListener - sendKeys -->inputtext
+21:04:18.046 INFO  manager.WDListener - Before find element -->By.xpath: //*[text()='Save']
+21:04:18.067 INFO  manager.WDListener - After find element -->By.xpath: //*[text()='Save']
+21:04:18.073 INFO  manager.WDListener - Location of element (1271, 622)
+21:04:18.089 INFO  manager.WDListener - Before click element -->btext = Save
+21:04:18.128 INFO  manager.WDListener - After click element -->b
+21:04:18.128 INFO  manager.WDListener - Before find element -->By.xpath: //a[@href='/add']
+21:04:18.135 INFO  manager.WDListener - After find element -->By.xpath: //a[@href='/add']
+21:04:18.142 INFO  manager.WDListener - Location of element (2021, 33)
+21:04:18.659 INFO  manager.WDListener - Before find element -->By.xpath: //a[@href='/add']
+21:04:18.674 INFO  manager.WDListener - After find element -->By.xpath: //a[@href='/add']
+21:04:18.678 INFO  manager.WDListener - Location of element (2023, 34)
+21:04:18.690 INFO  manager.WDListener - Before click element -->atext = ADD
+21:04:18.749 INFO  manager.WDListener - After click element -->a
+21:04:18.749 INFO  manager.WDListener - Before find element -->By.xpath: //input[@placeholder='Name']
+21:04:18.757 INFO  manager.WDListener - After find element -->By.xpath: //input[@placeholder='Name']
+21:04:18.762 INFO  manager.WDListener - Location of element (396, 165)
+21:04:18.813 INFO  manager.WDListener - sendKeys -->inputtext
+21:04:18.813 INFO  manager.WDListener - Before find element -->By.xpath: //input[@placeholder='Last Name']
+21:04:18.813 INFO  manager.WDListener - After find element -->By.xpath: //input[@placeholder='Last Name']
+21:04:18.827 INFO  manager.WDListener - Location of element (396, 239)
+21:04:18.835 INFO  manager.WDListener - Before click element -->inputtext = 
+21:04:18.866 INFO  manager.WDListener - After click element -->input
+21:04:18.907 INFO  manager.WDListener - sendKeys -->inputtext
+21:04:18.907 INFO  manager.WDListener - Before find element -->By.xpath: //input[@placeholder='Phone']
+21:04:18.914 INFO  manager.WDListener - After find element -->By.xpath: //input[@placeholder='Phone']
+21:04:18.919 INFO  manager.WDListener - Location of element (396, 313)
+21:04:18.926 INFO  manager.WDListener - Before click element -->inputtext = 
+21:04:18.959 INFO  manager.WDListener - After click element -->input
+21:04:19.013 INFO  manager.WDListener - sendKeys -->inputtext
+21:04:19.013 INFO  manager.WDListener - Before find element -->By.xpath: //input[@placeholder='email']
+21:04:19.013 INFO  manager.WDListener - After find element -->By.xpath: //input[@placeholder='email']
+21:04:19.031 INFO  manager.WDListener - Location of element (396, 387)
+21:04:19.037 INFO  manager.WDListener - Before click element -->inputtext = 
+21:04:19.098 INFO  manager.WDListener - After click element -->input
+21:04:19.130 INFO  manager.WDListener - sendKeys -->inputtext
+21:04:19.130 INFO  manager.WDListener - Before find element -->By.xpath: //input[@placeholder='Address']
+21:04:19.146 INFO  manager.WDListener - After find element -->By.xpath: //input[@placeholder='Address']
+21:04:19.146 INFO  manager.WDListener - Location of element (396, 461)
+21:04:19.146 INFO  manager.WDListener - Before click element -->inputtext = 
+21:04:19.182 INFO  manager.WDListener - After click element -->input
+21:04:19.235 INFO  manager.WDListener - sendKeys -->inputtext
+21:04:19.235 INFO  manager.WDListener - Before find element -->By.xpath: //input[@placeholder='description']
+21:04:19.235 INFO  manager.WDListener - After find element -->By.xpath: //input[@placeholder='description']
+21:04:19.248 INFO  manager.WDListener - Location of element (396, 535)
+21:04:19.254 INFO  manager.WDListener - Before click element -->inputtext = 
+21:04:19.281 INFO  manager.WDListener - After click element -->input
+21:04:19.329 INFO  manager.WDListener - sendKeys -->inputtext
+21:04:19.329 INFO  manager.WDListener - Before find element -->By.xpath: //*[text()='Save']
+21:04:19.329 INFO  manager.WDListener - After find element -->By.xpath: //*[text()='Save']
+21:04:19.347 INFO  manager.WDListener - Location of element (1271, 622)
+21:04:19.362 INFO  manager.WDListener - Before click element -->btext = Save
+21:04:19.379 INFO  manager.WDListener - After click element -->b
+21:04:19.379 INFO  manager.WDListener - Before find element -->By.xpath: //a[@href='/add']
+21:04:19.396 INFO  manager.WDListener - After find element -->By.xpath: //a[@href='/add']
+21:04:19.402 INFO  manager.WDListener - Location of element (2021, 33)
+21:04:19.923 INFO  manager.WDListener - Before find element -->By.xpath: //a[@href='/add']
+21:04:19.942 INFO  manager.WDListener - After find element -->By.xpath: //a[@href='/add']
+21:04:19.947 INFO  manager.WDListener - Location of element (2023, 34)
+21:04:19.966 INFO  manager.WDListener - Before click element -->atext = ADD
+21:04:20.014 INFO  manager.WDListener - After click element -->a
+21:04:20.014 INFO  manager.WDListener - Before find element -->By.xpath: //input[@placeholder='Name']
+21:04:20.021 INFO  manager.WDListener - After find element -->By.xpath: //input[@placeholder='Name']
+21:04:20.031 INFO  manager.WDListener - Location of element (396, 165)
+21:04:20.088 INFO  manager.WDListener - sendKeys -->inputtext
+21:04:20.088 INFO  manager.WDListener - Before find element -->By.xpath: //input[@placeholder='Last Name']
+21:04:20.095 INFO  manager.WDListener - After find element -->By.xpath: //input[@placeholder='Last Name']
+21:04:20.102 INFO  manager.WDListener - Location of element (396, 239)
+21:04:20.109 INFO  manager.WDListener - Before click element -->inputtext = 
+21:04:20.158 INFO  manager.WDListener - After click element -->input
+21:04:20.220 INFO  manager.WDListener - sendKeys -->inputtext
+21:04:20.221 INFO  manager.WDListener - Before find element -->By.xpath: //input[@placeholder='Phone']
+21:04:20.226 INFO  manager.WDListener - After find element -->By.xpath: //input[@placeholder='Phone']
+21:04:20.234 INFO  manager.WDListener - Location of element (396, 313)
+21:04:20.239 INFO  manager.WDListener - Before click element -->inputtext = 
+21:04:20.270 INFO  manager.WDListener - After click element -->input
+21:04:20.304 INFO  manager.WDListener - sendKeys -->inputtext
+21:04:20.304 INFO  manager.WDListener - Before find element -->By.xpath: //input[@placeholder='email']
+21:04:20.333 INFO  manager.WDListener - After find element -->By.xpath: //input[@placeholder='email']
+21:04:20.337 INFO  manager.WDListener - Location of element (396, 387)
+21:04:20.342 INFO  manager.WDListener - Before click element -->inputtext = 
+21:04:20.367 INFO  manager.WDListener - After click element -->input
+21:04:20.413 INFO  manager.WDListener - sendKeys -->inputtext
+21:04:20.413 INFO  manager.WDListener - Before find element -->By.xpath: //input[@placeholder='Address']
+21:04:20.413 INFO  manager.WDListener - After find element -->By.xpath: //input[@placeholder='Address']
+21:04:20.425 INFO  manager.WDListener - Location of element (396, 461)
+21:04:20.434 INFO  manager.WDListener - Before click element -->inputtext = 
+21:04:20.455 INFO  manager.WDListener - After click element -->input
+21:04:20.514 INFO  manager.WDListener - sendKeys -->inputtext
+21:04:20.514 INFO  manager.WDListener - Before find element -->By.xpath: //input[@placeholder='description']
+21:04:20.520 INFO  manager.WDListener - After find element -->By.xpath: //input[@placeholder='description']
+21:04:20.520 INFO  manager.WDListener - Location of element (396, 535)
+21:04:20.531 INFO  manager.WDListener - Before click element -->inputtext = 
+21:04:20.564 INFO  manager.WDListener - After click element -->input
+21:04:20.604 INFO  manager.WDListener - sendKeys -->inputtext
+21:04:20.604 INFO  manager.WDListener - Before find element -->By.xpath: //*[text()='Save']
+21:04:20.615 INFO  manager.WDListener - After find element -->By.xpath: //*[text()='Save']
+21:04:20.620 INFO  manager.WDListener - Location of element (1271, 622)
+21:04:20.636 INFO  manager.WDListener - Before click element -->btext = Save
+21:04:20.663 INFO  manager.WDListener - After click element -->b
+21:04:20.663 INFO  manager.WDListener - Before find element -->By.xpath: //a[@href='/add']
+21:04:20.663 INFO  manager.WDListener - After find element -->By.xpath: //a[@href='/add']
+21:04:20.680 INFO  manager.WDListener - Location of element (2021, 33)
+21:04:21.191 INFO  manager.WDListener - Before find element -->By.xpath: //a[@href='/add']
+21:04:21.212 INFO  manager.WDListener - After find element -->By.xpath: //a[@href='/add']
+21:04:21.215 INFO  manager.WDListener - Location of element (2023, 34)
+21:04:21.241 INFO  manager.WDListener - Before click element -->atext = ADD
+21:04:21.285 INFO  manager.WDListener - After click element -->a
+21:04:21.285 INFO  manager.WDListener - Before find element -->By.xpath: //input[@placeholder='Name']
+21:04:21.292 INFO  manager.WDListener - After find element -->By.xpath: //input[@placeholder='Name']
+21:04:21.302 INFO  manager.WDListener - Location of element (396, 165)
+21:04:21.369 INFO  manager.WDListener - sendKeys -->inputtext
+21:04:21.369 INFO  manager.WDListener - Before find element -->By.xpath: //input[@placeholder='Last Name']
+21:04:21.376 INFO  manager.WDListener - After find element -->By.xpath: //input[@placeholder='Last Name']
+21:04:21.385 INFO  manager.WDListener - Location of element (396, 239)
+21:04:21.392 INFO  manager.WDListener - Before click element -->inputtext = 
+21:04:21.424 INFO  manager.WDListener - After click element -->input
+21:04:21.470 INFO  manager.WDListener - sendKeys -->inputtext
+21:04:21.471 INFO  manager.WDListener - Before find element -->By.xpath: //input[@placeholder='Phone']
+21:04:21.477 INFO  manager.WDListener - After find element -->By.xpath: //input[@placeholder='Phone']
+21:04:21.482 INFO  manager.WDListener - Location of element (396, 313)
+21:04:21.488 INFO  manager.WDListener - Before click element -->inputtext = 
+21:04:21.519 INFO  manager.WDListener - After click element -->input
+21:04:21.563 INFO  manager.WDListener - sendKeys -->inputtext
+21:04:21.563 INFO  manager.WDListener - Before find element -->By.xpath: //input[@placeholder='email']
+21:04:21.565 INFO  manager.WDListener - After find element -->By.xpath: //input[@placeholder='email']
+21:04:21.565 INFO  manager.WDListener - Location of element (396, 387)
+21:04:21.583 INFO  manager.WDListener - Before click element -->inputtext = 
+21:04:21.615 INFO  manager.WDListener - After click element -->input
+21:04:21.665 INFO  manager.WDListener - sendKeys -->inputtext
+21:04:21.665 INFO  manager.WDListener - Before find element -->By.xpath: //input[@placeholder='Address']
+21:04:21.677 INFO  manager.WDListener - After find element -->By.xpath: //input[@placeholder='Address']
+21:04:21.685 INFO  manager.WDListener - Location of element (396, 461)
+21:04:21.695 INFO  manager.WDListener - Before click element -->inputtext = 
+21:04:21.748 INFO  manager.WDListener - After click element -->input
+21:04:21.798 INFO  manager.WDListener - sendKeys -->inputtext
+21:04:21.798 INFO  manager.WDListener - Before find element -->By.xpath: //input[@placeholder='description']
+21:04:21.805 INFO  manager.WDListener - After find element -->By.xpath: //input[@placeholder='description']
+21:04:21.817 INFO  manager.WDListener - Location of element (396, 535)
+21:04:21.823 INFO  manager.WDListener - Before click element -->inputtext = 
+21:04:21.851 INFO  manager.WDListener - After click element -->input
+21:04:21.905 INFO  manager.WDListener - sendKeys -->inputtext
+21:04:21.905 INFO  manager.WDListener - Before find element -->By.xpath: //*[text()='Save']
+21:04:21.905 INFO  manager.WDListener - After find element -->By.xpath: //*[text()='Save']
+21:04:21.919 INFO  manager.WDListener - Location of element (1271, 622)
+21:04:21.939 INFO  manager.WDListener - Before click element -->btext = Save
+21:04:21.981 INFO  manager.WDListener - After click element -->b
+21:04:21.981 INFO  manager.WDListener - Before find element -->By.xpath: //a[@href='/add']
+21:04:21.991 INFO  manager.WDListener - After find element -->By.xpath: //a[@href='/add']
+21:04:22.001 INFO  manager.WDListener - Location of element (2021, 33)
+21:04:22.530 INFO  manager.WDListener - Before find element -->By.xpath: //a[@href='/add']
+21:04:22.545 INFO  manager.WDListener - After find element -->By.xpath: //a[@href='/add']
+21:04:22.545 INFO  manager.WDListener - Location of element (2023, 34)
+21:04:22.584 INFO  manager.WDListener - Before click element -->atext = ADD
+21:04:22.620 INFO  manager.WDListener - After click element -->a
+21:04:22.620 INFO  manager.WDListener - Before find element -->By.xpath: //input[@placeholder='Name']
+21:04:22.627 INFO  manager.WDListener - After find element -->By.xpath: //input[@placeholder='Name']
+21:04:22.633 INFO  manager.WDListener - Location of element (396, 165)
+21:04:22.710 INFO  manager.WDListener - sendKeys -->inputtext
+21:04:22.710 INFO  manager.WDListener - Before find element -->By.xpath: //input[@placeholder='Last Name']
+21:04:22.723 INFO  manager.WDListener - After find element -->By.xpath: //input[@placeholder='Last Name']
+21:04:22.732 INFO  manager.WDListener - Location of element (396, 239)
+21:04:22.739 INFO  manager.WDListener - Before click element -->inputtext = 
+21:04:22.774 INFO  manager.WDListener - After click element -->input
+21:04:22.813 INFO  manager.WDListener - sendKeys -->inputtext
+21:04:22.813 INFO  manager.WDListener - Before find element -->By.xpath: //input[@placeholder='Phone']
+21:04:22.821 INFO  manager.WDListener - After find element -->By.xpath: //input[@placeholder='Phone']
+21:04:22.825 INFO  manager.WDListener - Location of element (396, 313)
+21:04:22.832 INFO  manager.WDListener - Before click element -->inputtext = 
+21:04:22.863 INFO  manager.WDListener - After click element -->input
+21:04:22.905 INFO  manager.WDListener - sendKeys -->inputtext
+21:04:22.905 INFO  manager.WDListener - Before find element -->By.xpath: //input[@placeholder='email']
+21:04:22.919 INFO  manager.WDListener - After find element -->By.xpath: //input[@placeholder='email']
+21:04:22.921 INFO  manager.WDListener - Location of element (396, 387)
+21:04:22.921 INFO  manager.WDListener - Before click element -->inputtext = 
+21:04:22.954 INFO  manager.WDListener - After click element -->input
+21:04:22.999 INFO  manager.WDListener - sendKeys -->inputtext
+21:04:22.999 INFO  manager.WDListener - Before find element -->By.xpath: //input[@placeholder='Address']
+21:04:23.005 INFO  manager.WDListener - After find element -->By.xpath: //input[@placeholder='Address']
+21:04:23.005 INFO  manager.WDListener - Location of element (396, 461)
+21:04:23.019 INFO  manager.WDListener - Before click element -->inputtext = 
+21:04:23.054 INFO  manager.WDListener - After click element -->input
+21:04:23.099 INFO  manager.WDListener - sendKeys -->inputtext
+21:04:23.099 INFO  manager.WDListener - Before find element -->By.xpath: //input[@placeholder='description']
+21:04:23.105 INFO  manager.WDListener - After find element -->By.xpath: //input[@placeholder='description']
+21:04:23.117 INFO  manager.WDListener - Location of element (396, 535)
+21:04:23.124 INFO  manager.WDListener - Before click element -->inputtext = 
+21:04:23.151 INFO  manager.WDListener - After click element -->input
+21:04:23.215 INFO  manager.WDListener - sendKeys -->inputtext
+21:04:23.215 INFO  manager.WDListener - Before find element -->By.xpath: //*[text()='Save']
+21:04:23.233 INFO  manager.WDListener - After find element -->By.xpath: //*[text()='Save']
+21:04:23.233 INFO  manager.WDListener - Location of element (1271, 622)
+21:04:23.255 INFO  manager.WDListener - Before click element -->btext = Save
+21:04:23.282 INFO  manager.WDListener - After click element -->b
+21:04:23.282 INFO  manager.WDListener - Before find element -->By.xpath: //a[@href='/add']
+21:04:23.282 INFO  manager.WDListener - After find element -->By.xpath: //a[@href='/add']
+21:04:23.299 INFO  manager.WDListener - Location of element (2021, 33)
+21:04:23.858 INFO  tests.TestBase - === Starting test: removeFirstContact2 ===
+21:04:23.862 INFO  manager.TestNGListener - Start test --->removeFirstContact2
+21:04:23.906 INFO  manager.HelperBase - Number of Contact List before remove is -->17
+21:04:23.906 INFO  manager.WDListener - Before find element -->By.xpath: //button[text()='Remove']
+21:04:28.926 INFO  manager.WDListener - Huston, we have a problem!
+21:04:28.926 INFO  manager.WDListener - Object target --> ChromeDriver: chrome on windows (cd6fda183a38b93c568f86061fab2f43)
+21:04:28.926 INFO  manager.WDListener - ******************************
+21:04:28.926 INFO  manager.WDListener - Method name -->findElement
+21:04:28.926 INFO  manager.WDListener - ******************************
+21:04:28.937 INFO  manager.WDListener - InvocationTargetExceptionorg.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//button[text()='Remove']"}
+  (Session info: chrome=137.0.7151.104)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.16.1', revision: '9b4c83354e'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.21'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [cd6fda183a38b93c568f86061fab2f43, findElement {using=xpath, value=//button[text()='Remove']}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 137.0.7151.104, chrome: {chromedriverVersion: 137.0.7151.40 (84781974514a..., userDataDir: C:\Users\kalin\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:55008}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:55008/devtoo..., se:cdpVersion: 137.0.7151.104, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: cd6fda183a38b93c568f86061fab2f43
+21:04:28.937 INFO  manager.WDListener - ******************************
+21:04:29.183 INFO  manager.WDListener - Screen with error is --->src/test/screenshots/screen_1850.png
+21:04:29.697 INFO  manager.WDListener - Before find element -->By.xpath: //button[text()='Remove']
+21:04:34.756 INFO  manager.WDListener - Huston, we have a problem!
+21:04:34.756 INFO  manager.WDListener - Object target --> ChromeDriver: chrome on windows (cd6fda183a38b93c568f86061fab2f43)
+21:04:34.756 INFO  manager.WDListener - ******************************
+21:04:34.756 INFO  manager.WDListener - Method name -->findElement
+21:04:34.756 INFO  manager.WDListener - ******************************
+21:04:34.756 INFO  manager.WDListener - InvocationTargetExceptionorg.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//button[text()='Remove']"}
+  (Session info: chrome=137.0.7151.104)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.16.1', revision: '9b4c83354e'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.21'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [cd6fda183a38b93c568f86061fab2f43, findElement {using=xpath, value=//button[text()='Remove']}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 137.0.7151.104, chrome: {chromedriverVersion: 137.0.7151.40 (84781974514a..., userDataDir: C:\Users\kalin\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:55008}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:55008/devtoo..., se:cdpVersion: 137.0.7151.104, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: cd6fda183a38b93c568f86061fab2f43
+21:04:34.756 INFO  manager.WDListener - ******************************
+21:04:35.001 INFO  manager.WDListener - Screen with error is --->src/test/screenshots/screen_1920.png
+21:04:35.003 INFO  manager.TestNGListener - Fail test --->removeFirstContact2

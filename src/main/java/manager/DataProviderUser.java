@@ -28,19 +28,19 @@ public class DataProviderUser {
     @DataProvider
     public Iterator<Object[]> loginFile() throws IOException {
         List<Object[]> list = new ArrayList<>();
-        //read from file ----> add to list
-        BufferedReader reader = new BufferedReader(new FileReader(new File("src/test/resources/test.csv")));
-        String line = reader.readLine();
-        while (line!=null){
+        BufferedReader reader = new BufferedReader(new FileReader("src/test/resources/test.csv"));
+        String line;
+        while ((line = reader.readLine()) != null) {
             String[] all = line.split(",");
-            list.add(new Object[]{
-                    new User().setEmail(all[0]).setPassword(all[1])
-            });
-            line = reader.readLine();
+            if (all.length == 2) {
+                list.add(new Object[]{
+                        new User().setEmail(all[0].trim()).setPassword(all[1].trim())
+                });
+            }
         }
-
         return list.iterator();
     }
+
 
 
 }

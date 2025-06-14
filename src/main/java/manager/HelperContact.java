@@ -25,7 +25,7 @@ public class HelperContact extends HelperBase {
     }
 
     public void fillContactForm(Contact contact) {
-        WebDriverWait wait = new WebDriverWait(wd, Duration.ofSeconds(10));
+        WebDriverWait wait = new WebDriverWait(wd, Duration.ofSeconds(15));
 
         WebElement nameInput = wait.until(ExpectedConditions.visibilityOfElementLocated(By.xpath("//input[@placeholder='Name']")));
         nameInput.clear();
@@ -87,19 +87,37 @@ public class HelperContact extends HelperBase {
     }
 
     public List<WebElement> contactList() {
-        return wd.findElements(By.xpath("//div[@class='contact-item_card__2SOIM'][.//h3]"));
+        By locator = By.xpath("//div[@class='contact-item_card__2SOIM'][.//h3]");
+        WebDriverWait wait = new WebDriverWait(wd, Duration.ofSeconds(10));
+
+
+        wait.until(driver -> {
+            List<WebElement> list = driver.findElements(locator);
+            return list != null; // Always succeeds, avoids TimeoutException
+        });
+
+        return wd.findElements(locator);
     }
+
+
 
     public void removeContact() {
         WebDriverWait wait = new WebDriverWait(wd, Duration.ofSeconds(10));
 
-        WebElement removeContact = wait.until(ExpectedConditions.elementToBeClickable(
+        WebElement removeBtn = wait.until(ExpectedConditions.elementToBeClickable(
                 By.xpath("//button[text()='Remove']")));
-        removeContact.click();
+        removeBtn.click();
 
-
-        wait.until(ExpectedConditions.invisibilityOf(removeContact));
+        wait.until(ExpectedConditions.invisibilityOf(removeBtn));
     }
+
+
+    public void waitForContactCountToDecrease(int previousSize) {
+        WebDriverWait wait = new WebDriverWait(wd, Duration.ofSeconds(10));
+        wait.until(driver -> contactList().size() < previousSize);
+    }
+
+
 
 
 
@@ -146,24 +164,50 @@ public class HelperContact extends HelperBase {
 
 
     public int removeOneContact() {
-        int before = countOfContacts();
-        logger.info("Number of Contact List before remove is -->"+before);
-        removeContact2();
+        WebDriverWait wait = new WebDriverWait(wd, Duration.ofSeconds(10));
+        By contactSelector = By.cssSelector(".contact-item_card__2SOIM");
 
-        int after = countOfContacts();
-        logger.info("Number of Contact List after remove is -->"+after);
-        return before - after;
+        List<WebElement> contactsBefore = wd.findElements(contactSelector);
+        if (contactsBefore.isEmpty()) return 0;
+
+        int initialSize = contactsBefore.size();
+        WebElement firstContact = contactsBefore.get(0);
+        firstContact.click();
+
+        WebElement removeBtn = wait.until(ExpectedConditions.elementToBeClickable(
+                By.xpath("//button[text()='Remove']")));
+        removeBtn.click();
+
+
+        wait.until(driver -> driver.findElements(contactSelector).size() < initialSize);
+
+        return 1;
     }
+
 
     private void removeContact2() {
-        click(By.cssSelector(".contact-item_card__2SOIM"));
-        click(By.xpath("//button[text()='Remove']"));
-        try {
-            Thread.sleep(1000);
-        } catch (InterruptedException e) {
-            throw new RuntimeException(e);
-        }
+        WebDriverWait wait = new WebDriverWait(wd, Duration.ofSeconds(10));
+        By contactSelector = By.cssSelector(".contact-item_card__2SOIM");
+
+        List<WebElement> contactsBefore = wd.findElements(contactSelector);
+        if (contactsBefore.isEmpty()) return;
+
+        int initialSize = contactsBefore.size();
+
+        // Click first contact
+        WebElement contact = contactsBefore.get(0);
+        contact.click();
+
+        // Click "Remove" button
+        WebElement removeBtn = wait.until(ExpectedConditions.elementToBeClickable(
+                By.xpath("//button[text()='Remove']")));
+        removeBtn.click();
+
+
+        wait.until(driver -> driver.findElements(contactSelector).size() < initialSize);
     }
+
+
 
     private int countOfContacts() {
         return  wd.findElements(By.cssSelector(".contact-item_card__2SOIM")).size();

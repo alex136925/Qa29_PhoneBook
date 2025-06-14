@@ -26,3 +26,45 @@ dependencies {
 test {
     useTestNG()
 }
+
+task qa(type:Test){
+    useTestNG(){
+
+        def suite = System.getProperty('suite', '')
+        if (suite.equals('quick')) {
+            suites 'src/test/resources/quick.xml'
+        }
+        else if (suite.equals('login')) {
+            suites 'src/test/resources/login.xml'
+        }
+        else {
+            suites 'src/test/resources/testng.xml'
+        }
+
+
+        suites 'src/test/resources/testng.xml'
+    }
+
+    if(project.hasProperty('browser')){
+        systemProperty 'browser', "${browser}"
+    }
+}
+
+task scoup(type:Test) {
+    useTestNG() {
+        suites 'src/test/resources/scoupe.xml'
+    }
+}
+
+    task team(type: Test) {
+        useTestNG() {
+            def groups = System.getProperty('groups')
+            if (groups != null) {
+                includeGroups groups
+            }
+
+            suites 'src/test/resources/base.xml'
+        }
+    }
+
+

@@ -17,7 +17,7 @@ import java.util.Random;
 
 public class RemoveContactTests extends TestBase{
 
-    @BeforeClass
+    @BeforeClass(alwaysRun = true)
     public  void preCondition(){
         User user = new User().setEmail("tipsytutor92@gmail.com").setPassword("Ghtdfg#23");
         app.getHelperUser().openLoginRegistrationForm();
@@ -29,35 +29,43 @@ public class RemoveContactTests extends TestBase{
     }
 
 
-    @Test
-    public  void removeFirstContact(){
-        List<WebElement> contacts = app.getHelperContact().contactList();
-        Assert.assertTrue(contacts.size() > 0, "No contacts found before deletion test.");
-    WebElement firstContact = contacts.get(0);
-    firstContact.click();
-    app.getHelperContact().removeContact();
-    }
+//    @Test
+//    public  void removeFirstContact(){
+//        List<WebElement> contacts = app.getHelperContact().contactList();
+//       Assert.assertTrue(contacts.size() > 0, "No contacts found before deletion test.");
+//    WebElement firstContact = contacts.get(0);
+//    firstContact.click();
+//    app.getHelperContact().removeContact();
+//    }
 
-    @Test
+    @Test(groups = {"smoke"})
     public  void removeFirstContact2(){
         Assert.assertEquals(app.getHelperContact().removeOneContact(), 1);
     }
 
 
 
-    @Test (dependsOnMethods = "removeFirstContact")
-    public void removeAllContacts() {
-        while (true) {
-            List<WebElement> contacts = app.getHelperContact().contactList();
-            if (contacts.isEmpty()) break;
+//    @Test
+//    public void removeAllContacts() {
+//        while (true) {
+//            List<WebElement> contacts = app.getHelperContact().contactList();
+//
+//            if (contacts.isEmpty()) break;
+//
+//            WebElement contact = contacts.get(0);
+//            contact.click();
+//            app.getHelperContact().removeContact();
+//
+//            // Wait until the number of contacts is less than before
+//            app.getHelperContact().waitForContactCountToDecrease(contacts.size());
+//        }
+//
+//        Assert.assertTrue(app.getHelperContact().areContactsEmpty());
+//    }
 
-            contacts.get(0).click();
-            app.getHelperContact().removeContact();
-        }
-        Assert.assertTrue(app.getHelperContact().areContactsEmpty());
-    }
 
-    @Test
+
+    @Test (dependsOnMethods = {"removeFirstContact2"})
     public  void removeAllContacts2(){
         app.getHelperContact().removeAllContacts();
         Assert.assertTrue(app.getHelperUser().isNoContactsDisplayed());

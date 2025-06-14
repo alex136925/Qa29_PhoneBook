@@ -15,11 +15,15 @@ public class HelperUser extends HelperBase{
         super(wd);
     }
 
-    public  void  openLoginRegistrationForm(){
-        WebElement loginTab = wd.findElement(By.xpath("//a[text() = 'LOGIN']"));
+    public void openLoginRegistrationForm() {
+        WebDriverWait wait = new WebDriverWait(wd, Duration.ofSeconds(10));
 
+        WebElement loginTab = wait.until(ExpectedConditions.elementToBeClickable(By.xpath("//a[text()='LOGIN']")));
         loginTab.click();
+
+        wait.until(ExpectedConditions.visibilityOfElementLocated(By.name("email")));
     }
+
 
     public  void fillLoginRegistrationForm(String email, String password){
 
@@ -51,9 +55,9 @@ public class HelperUser extends HelperBase{
 
     public void fillLoginRegistrationForm(User user) {
         type(By.name("email"), user.getEmail());
-       type(By.xpath("//input[last()]"), user.getPassword());
-        //type(By.xpath("//input[la()]"), user.getPassword());
+        type(By.name("password"), user.getPassword());
     }
+
 
     public void submitRegistration(){
         click(By.xpath("//button[text()='Registration']"));

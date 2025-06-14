@@ -16,15 +16,20 @@ import java.util.Random;
 
 public class ContactTests extends TestBase{
 
-    @BeforeClass
-    public  void preCondition(){
-        User user = new User().setEmail("tipsytutor92@gmail.com").setPassword("Ghtdfg#23");
+    @BeforeClass(alwaysRun = true)
+    public void preCondition() {
+        User user = new User()
+                .setEmail("tipsytutor92@gmail.com")
+                .setPassword("Ghtdfg#23");
+
         app.getHelperUser().openLoginRegistrationForm();
         app.getHelperUser().fillLoginRegistrationForm(user);
         app.getHelperUser().submitLogin();
+
     }
 
-    @Test
+
+    @Test(groups = {"smoke", "regress", "retest"})
     public  void contactSuccessAll(){
         int i = new Random().nextInt(1000)+1000;
         Contact contact = Contact.builder()
@@ -65,6 +70,7 @@ public class ContactTests extends TestBase{
                 .phone("88005553556")
                 .email("money" + i + "@yahoo.com")
                 .address("London, UK")
+                .description("Not Bad")
                 .build();
 
         app.getHelperContact().openContactForm();
@@ -80,11 +86,12 @@ public class ContactTests extends TestBase{
     public  void contactFailWrongName(){
         int i = new Random().nextInt(1000)+1000;
         Contact contact = Contact.builder()
-                .name("")
+                .name(" ")
                 .lastName("Smith")
                 .phone("88005553556")
                 .email("money" + i + "@yahoo.com")
                 .address("London, UK")
+                .description("Not Bad")
                 .build();
 
         app.getHelperContact().openContactForm();
@@ -103,6 +110,7 @@ public class ContactTests extends TestBase{
                 .phone("88005553556")
                 .email("money" + i + "@yahoo.com")
                 .address("London, UK")
+                .description("Not Bad")
                 .build();
 
         app.getHelperContact().openContactForm();
@@ -133,6 +141,7 @@ public class ContactTests extends TestBase{
                 .phone("")
                 .email("money2@yahoo.com")
                 .address("London, UK")
+                .description("Not Bad")
                 .build();
 
         app.getHelperContact().openContactForm();
@@ -152,6 +161,7 @@ public class ContactTests extends TestBase{
                 .phone("88005553556")
                 .email("money2yahoo.com")
                 .address("London, UK")
+                .description("Not Bad")
                 .build();
 
         app.getHelperContact().openContactForm();
@@ -170,6 +180,7 @@ public class ContactTests extends TestBase{
                 .phone("")
                 .email("")
                 .address("")
+                .description("")
                 .build();
 
         app.getHelperContact().openContactForm();
