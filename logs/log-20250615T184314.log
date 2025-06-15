@@ -1,0 +1,222 @@
+18:43:17.025 INFO  manager.ApplicationManager - All tests run in Chrome Browser
+18:43:17.025 INFO  manager.ApplicationManager - All tests run in Chrome Browser
+18:43:17.261 INFO  manager.WDListener - Url-->https://telranedu.web.app/
+18:43:17.923 INFO  tests.TestBase - === Starting test: loginWrongEmail ===
+18:43:22.967 INFO  manager.TestNGListener - Start test --->loginWrongEmail
+18:43:22.969 INFO  manager.WDListener - Before find element -->By.xpath: //a[text()='LOGIN']
+18:43:22.987 INFO  manager.WDListener - After find element -->By.xpath: //a[text()='LOGIN']
+18:43:22.998 INFO  manager.WDListener - Location of element (2450, 34)
+18:43:23.038 INFO  manager.WDListener - Before click element -->atext = LOGIN
+18:43:23.084 INFO  manager.WDListener - After click element -->a
+18:43:23.084 INFO  manager.WDListener - Before find element -->By.name: email
+18:43:23.102 INFO  manager.WDListener - After find element -->By.name: email
+18:43:23.109 INFO  manager.WDListener - Location of element (1080, 250)
+18:43:23.117 INFO  manager.WDListener - Before find element -->By.name: email
+18:43:23.128 INFO  manager.WDListener - After find element -->By.name: email
+18:43:23.132 INFO  manager.WDListener - Location of element (1080, 250)
+18:43:23.214 INFO  manager.WDListener - sendKeys -->inputtext
+18:43:23.214 INFO  manager.WDListener - Before find element -->By.name: password
+18:43:23.228 INFO  manager.WDListener - After find element -->By.name: password
+18:43:23.233 INFO  manager.WDListener - Location of element (1080, 320)
+18:43:23.293 INFO  manager.WDListener - sendKeys -->inputtext
+18:43:23.294 INFO  tests.TestBase - Test data --> email: mara1gmail.com & password: Roma3456$ 
+18:43:23.294 INFO  manager.WDListener - Before find element -->By.cssSelector: button[name='login']
+18:43:23.309 INFO  manager.WDListener - After find element -->By.cssSelector: button[name='login']
+18:43:23.315 INFO  manager.WDListener - Location of element (1080, 390)
+18:43:23.325 INFO  manager.WDListener - Before click element -->buttontext = Login
+18:43:23.384 INFO  manager.WDListener - Huston, we have a problem!
+18:43:23.384 INFO  manager.WDListener - Object target --> org.openqa.selenium.remote.RemoteWebDriver$RemoteTargetLocator@5a08efdc
+18:43:23.384 INFO  manager.WDListener - ******************************
+18:43:23.384 INFO  manager.WDListener - Method name -->alert
+18:43:23.384 INFO  manager.WDListener - ******************************
+18:43:23.384 INFO  manager.WDListener - InvocationTargetExceptionorg.openqa.selenium.NoAlertPresentException: no such alert
+  (Session info: chrome=137.0.7151.104)
+Build info: version: '4.16.1', revision: '9b4c83354e'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.12'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [fabc910ceecf8b67eb0fa7cf84685b8f, getAlertText {}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 137.0.7151.104, chrome: {chromedriverVersion: 137.0.7151.40 (84781974514a..., userDataDir: C:\Users\kalin\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:52301}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:52301/devtoo..., se:cdpVersion: 137.0.7151.104, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: fabc910ceecf8b67eb0fa7cf84685b8f
+18:43:23.386 INFO  manager.WDListener - ******************************
+18:43:23.898 INFO  manager.WDListener - Huston, we have a problem!
+18:43:23.898 INFO  manager.WDListener - Object target --> org.openqa.selenium.remote.RemoteWebDriver$RemoteTargetLocator@43f1bb92
+18:43:23.898 INFO  manager.WDListener - ******************************
+18:43:23.898 INFO  manager.WDListener - Method name -->alert
+18:43:23.898 INFO  manager.WDListener - ******************************
+18:43:23.898 INFO  manager.WDListener - InvocationTargetExceptionorg.openqa.selenium.NoAlertPresentException: no such alert
+  (Session info: chrome=137.0.7151.104)
+Build info: version: '4.16.1', revision: '9b4c83354e'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.12'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [fabc910ceecf8b67eb0fa7cf84685b8f, getAlertText {}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 137.0.7151.104, chrome: {chromedriverVersion: 137.0.7151.40 (84781974514a..., userDataDir: C:\Users\kalin\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:52301}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:52301/devtoo..., se:cdpVersion: 137.0.7151.104, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: fabc910ceecf8b67eb0fa7cf84685b8f
+18:43:23.898 INFO  manager.WDListener - ******************************
+18:43:24.408 INFO  manager.WDListener - Huston, we have a problem!
+18:43:24.408 INFO  manager.WDListener - Object target --> org.openqa.selenium.remote.RemoteWebDriver$RemoteTargetLocator@6a818392
+18:43:24.408 INFO  manager.WDListener - ******************************
+18:43:24.408 INFO  manager.WDListener - Method name -->alert
+18:43:24.408 INFO  manager.WDListener - ******************************
+18:43:24.408 INFO  manager.WDListener - InvocationTargetExceptionorg.openqa.selenium.NoAlertPresentException: no such alert
+  (Session info: chrome=137.0.7151.104)
+Build info: version: '4.16.1', revision: '9b4c83354e'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.12'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [fabc910ceecf8b67eb0fa7cf84685b8f, getAlertText {}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 137.0.7151.104, chrome: {chromedriverVersion: 137.0.7151.40 (84781974514a..., userDataDir: C:\Users\kalin\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:52301}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:52301/devtoo..., se:cdpVersion: 137.0.7151.104, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: fabc910ceecf8b67eb0fa7cf84685b8f
+18:43:24.408 INFO  manager.WDListener - ******************************
+18:43:24.944 INFO  tests.TestBase - Assert check is alert 'Wrong email or password' present
+18:43:24.947 INFO  manager.TestNGListener - Success test --->loginWrongEmail
+18:43:24.948 INFO  tests.TestBase - === Starting test: registrationExistUser ===
+18:43:29.959 INFO  manager.TestNGListener - Start test --->registrationExistUser
+18:43:29.959 INFO  manager.WDListener - Before find element -->By.xpath: //a[text()='LOGIN']
+18:43:29.972 INFO  manager.WDListener - After find element -->By.xpath: //a[text()='LOGIN']
+18:43:29.979 INFO  manager.WDListener - Location of element (2448, 33)
+18:43:29.999 INFO  manager.WDListener - Before click element -->atext = LOGIN
+18:43:30.041 INFO  manager.WDListener - After click element -->a
+18:43:30.041 INFO  manager.WDListener - Before find element -->By.name: email
+18:43:30.051 INFO  manager.WDListener - After find element -->By.name: email
+18:43:30.057 INFO  manager.WDListener - Location of element (1080, 281)
+18:43:30.062 INFO  manager.WDListener - Before find element -->By.name: email
+18:43:30.071 INFO  manager.WDListener - After find element -->By.name: email
+18:43:30.077 INFO  manager.WDListener - Location of element (1080, 281)
+18:43:30.143 INFO  manager.WDListener - sendKeys -->inputtext
+18:43:30.144 INFO  manager.WDListener - Before find element -->By.name: password
+18:43:30.155 INFO  manager.WDListener - After find element -->By.name: password
+18:43:30.162 INFO  manager.WDListener - Location of element (1080, 351)
+18:43:30.228 INFO  manager.WDListener - sendKeys -->inputtext
+18:43:30.228 INFO  manager.WDListener - Before find element -->By.xpath: //button[text()='Registration']
+18:43:30.241 INFO  manager.WDListener - After find element -->By.xpath: //button[text()='Registration']
+18:43:30.248 INFO  manager.WDListener - Location of element (1330, 421)
+18:43:30.256 INFO  manager.WDListener - Before click element -->buttontext = Registration
+18:43:30.290 INFO  manager.WDListener - Before find element -->By.xpath: //button[normalize-space(text())='Ok']
+18:43:30.744 INFO  manager.WDListener - Huston, we have a problem!
+18:43:30.744 INFO  manager.WDListener - Object target --> ChromeDriver: chrome on windows (fabc910ceecf8b67eb0fa7cf84685b8f)
+18:43:30.745 INFO  manager.WDListener - ******************************
+18:43:30.745 INFO  manager.WDListener - Method name -->findElement
+18:43:30.745 INFO  manager.WDListener - ******************************
+18:43:30.745 INFO  manager.WDListener - InvocationTargetExceptionorg.openqa.selenium.NoSuchElementException: Unable to find element with locator By.xpath: //button[normalize-space(text())='Ok']
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.16.1', revision: '9b4c83354e'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.12'
+Driver info: driver.version: RemoteWebDriver
+18:43:30.745 INFO  manager.WDListener - ******************************
+18:43:31.257 INFO  manager.WDListener - Before find element -->By.xpath: //button[normalize-space(text())='Ok']
+18:43:36.268 INFO  manager.WDListener - Huston, we have a problem!
+18:43:36.268 INFO  manager.WDListener - Object target --> ChromeDriver: chrome on windows (fabc910ceecf8b67eb0fa7cf84685b8f)
+18:43:36.268 INFO  manager.WDListener - ******************************
+18:43:36.268 INFO  manager.WDListener - Method name -->findElement
+18:43:36.268 INFO  manager.WDListener - ******************************
+18:43:36.268 INFO  manager.WDListener - InvocationTargetExceptionorg.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//button[normalize-space(text())='Ok']"}
+  (Session info: chrome=137.0.7151.104)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.16.1', revision: '9b4c83354e'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.12'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [fabc910ceecf8b67eb0fa7cf84685b8f, findElement {using=xpath, value=//button[normalize-space(text())='Ok']}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 137.0.7151.104, chrome: {chromedriverVersion: 137.0.7151.40 (84781974514a..., userDataDir: C:\Users\kalin\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:52301}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:52301/devtoo..., se:cdpVersion: 137.0.7151.104, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: fabc910ceecf8b67eb0fa7cf84685b8f
+18:43:36.268 INFO  manager.WDListener - ******************************
+18:43:36.539 INFO  manager.WDListener - Screen with error is --->src/test/screenshots/screen_1457.png
+18:43:36.539 INFO  manager.TestNGListener - Success test --->registrationExistUser
+18:43:36.539 INFO  tests.TestBase - === Starting test: registrationSuccess ===
+18:43:41.578 INFO  manager.TestNGListener - Start test --->registrationSuccess
+18:43:41.578 INFO  manager.WDListener - Before find element -->By.xpath: //a[text()='LOGIN']
+18:43:41.588 INFO  manager.WDListener - After find element -->By.xpath: //a[text()='LOGIN']
+18:43:41.598 INFO  manager.WDListener - Location of element (2448, 33)
+18:43:41.619 INFO  manager.WDListener - Before click element -->atext = LOGIN
+18:43:41.666 INFO  manager.WDListener - After click element -->a
+18:43:41.666 INFO  manager.WDListener - Before find element -->By.name: email
+18:43:41.678 INFO  manager.WDListener - After find element -->By.name: email
+18:43:41.688 INFO  manager.WDListener - Location of element (1080, 281)
+18:43:41.694 INFO  manager.WDListener - Before find element -->By.name: email
+18:43:41.700 INFO  manager.WDListener - After find element -->By.name: email
+18:43:41.705 INFO  manager.WDListener - Location of element (1080, 281)
+18:43:41.787 INFO  manager.WDListener - sendKeys -->inputtext
+18:43:41.787 INFO  manager.WDListener - Before find element -->By.name: password
+18:43:41.795 INFO  manager.WDListener - After find element -->By.name: password
+18:43:41.801 INFO  manager.WDListener - Location of element (1080, 351)
+18:43:41.868 INFO  manager.WDListener - sendKeys -->inputtext
+18:43:41.868 INFO  manager.WDListener - Before find element -->By.xpath: //button[text()='Registration']
+18:43:41.876 INFO  manager.WDListener - After find element -->By.xpath: //button[text()='Registration']
+18:43:41.882 INFO  manager.WDListener - Location of element (1330, 421)
+18:43:41.894 INFO  manager.WDListener - Before click element -->buttontext = Registration
+18:43:42.279 INFO  manager.WDListener - Before find element -->By.cssSelector: .contact-page_message__2qafk>h1
+18:43:42.668 INFO  manager.WDListener - After find element -->By.cssSelector: .contact-page_message__2qafk>h1
+18:43:42.674 INFO  manager.WDListener - Location of element (1145, 271)
+18:43:42.679 INFO  manager.TestNGListener - Success test --->registrationSuccess
+18:43:42.681 INFO  manager.WDListener - Before find element -->By.xpath: //a[text()='LOGIN']
+18:43:47.698 INFO  manager.WDListener - Huston, we have a problem!
+18:43:47.698 INFO  manager.WDListener - Object target --> ChromeDriver: chrome on windows (fabc910ceecf8b67eb0fa7cf84685b8f)
+18:43:47.698 INFO  manager.WDListener - ******************************
+18:43:47.698 INFO  manager.WDListener - Method name -->findElement
+18:43:47.698 INFO  manager.WDListener - ******************************
+18:43:47.698 INFO  manager.WDListener - InvocationTargetExceptionorg.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//a[text()='LOGIN']"}
+  (Session info: chrome=137.0.7151.104)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.16.1', revision: '9b4c83354e'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.12'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [fabc910ceecf8b67eb0fa7cf84685b8f, findElement {using=xpath, value=//a[text()='LOGIN']}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 137.0.7151.104, chrome: {chromedriverVersion: 137.0.7151.40 (84781974514a..., userDataDir: C:\Users\kalin\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:52301}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:52301/devtoo..., se:cdpVersion: 137.0.7151.104, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: fabc910ceecf8b67eb0fa7cf84685b8f
+18:43:47.698 INFO  manager.WDListener - ******************************
+18:43:47.978 INFO  manager.WDListener - Screen with error is --->src/test/screenshots/screen_1509.png
+18:43:48.480 INFO  manager.WDListener - Before find element -->By.xpath: //a[text()='LOGIN']
+18:43:53.488 INFO  manager.WDListener - Huston, we have a problem!
+18:43:53.488 INFO  manager.WDListener - Object target --> ChromeDriver: chrome on windows (fabc910ceecf8b67eb0fa7cf84685b8f)
+18:43:53.488 INFO  manager.WDListener - ******************************
+18:43:53.488 INFO  manager.WDListener - Method name -->findElement
+18:43:53.488 INFO  manager.WDListener - ******************************
+18:43:53.488 INFO  manager.WDListener - InvocationTargetExceptionorg.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//a[text()='LOGIN']"}
+  (Session info: chrome=137.0.7151.104)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.16.1', revision: '9b4c83354e'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.12'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [fabc910ceecf8b67eb0fa7cf84685b8f, findElement {using=xpath, value=//a[text()='LOGIN']}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 137.0.7151.104, chrome: {chromedriverVersion: 137.0.7151.40 (84781974514a..., userDataDir: C:\Users\kalin\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:52301}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:52301/devtoo..., se:cdpVersion: 137.0.7151.104, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: fabc910ceecf8b67eb0fa7cf84685b8f
+18:43:53.488 INFO  manager.WDListener - ******************************
+18:43:53.757 INFO  manager.WDListener - Screen with error is --->src/test/screenshots/screen_1292.png
+18:43:53.759 INFO  tests.TestBase - === Starting test: contactSuccessAll ===
+18:43:53.759 INFO  manager.TestNGListener - Start test --->contactSuccessAll
+18:43:53.759 INFO  manager.TestNGListener - Skipped test --->contactSuccessAll
+18:43:53.759 INFO  manager.WDListener - Before find element -->By.xpath: //a[text()='LOGIN']
+18:43:58.768 INFO  manager.WDListener - Huston, we have a problem!
+18:43:58.768 INFO  manager.WDListener - Object target --> ChromeDriver: chrome on windows (fabc910ceecf8b67eb0fa7cf84685b8f)
+18:43:58.768 INFO  manager.WDListener - ******************************
+18:43:58.768 INFO  manager.WDListener - Method name -->findElement
+18:43:58.768 INFO  manager.WDListener - ******************************
+18:43:58.768 INFO  manager.WDListener - InvocationTargetExceptionorg.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//a[text()='LOGIN']"}
+  (Session info: chrome=137.0.7151.104)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.16.1', revision: '9b4c83354e'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.12'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [fabc910ceecf8b67eb0fa7cf84685b8f, findElement {using=xpath, value=//a[text()='LOGIN']}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 137.0.7151.104, chrome: {chromedriverVersion: 137.0.7151.40 (84781974514a..., userDataDir: C:\Users\kalin\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:52301}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:52301/devtoo..., se:cdpVersion: 137.0.7151.104, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: fabc910ceecf8b67eb0fa7cf84685b8f
+18:43:58.768 INFO  manager.WDListener - ******************************
+18:43:59.027 INFO  manager.WDListener - Screen with error is --->src/test/screenshots/screen_1579.png
+18:43:59.538 INFO  manager.WDListener - Before find element -->By.xpath: //a[text()='LOGIN']
+18:44:04.547 INFO  manager.WDListener - Huston, we have a problem!
+18:44:04.547 INFO  manager.WDListener - Object target --> ChromeDriver: chrome on windows (fabc910ceecf8b67eb0fa7cf84685b8f)
+18:44:04.547 INFO  manager.WDListener - ******************************
+18:44:04.547 INFO  manager.WDListener - Method name -->findElement
+18:44:04.547 INFO  manager.WDListener - ******************************
+18:44:04.547 INFO  manager.WDListener - InvocationTargetExceptionorg.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//a[text()='LOGIN']"}
+  (Session info: chrome=137.0.7151.104)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.16.1', revision: '9b4c83354e'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.12'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [fabc910ceecf8b67eb0fa7cf84685b8f, findElement {using=xpath, value=//a[text()='LOGIN']}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 137.0.7151.104, chrome: {chromedriverVersion: 137.0.7151.40 (84781974514a..., userDataDir: C:\Users\kalin\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:52301}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:52301/devtoo..., se:cdpVersion: 137.0.7151.104, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: fabc910ceecf8b67eb0fa7cf84685b8f
+18:44:04.547 INFO  manager.WDListener - ******************************
+18:44:04.789 INFO  manager.WDListener - Screen with error is --->src/test/screenshots/screen_1813.png
+18:44:04.789 INFO  tests.TestBase - === Starting test: removeFirstContact2 ===
+18:44:04.789 INFO  manager.TestNGListener - Start test --->removeFirstContact2
+18:44:04.789 INFO  manager.TestNGListener - Skipped test --->removeFirstContact2
