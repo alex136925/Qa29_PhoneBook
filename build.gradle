@@ -41,7 +41,6 @@ task qa(type:Test){
             suites 'src/test/resources/testng.xml'
         }
 
-
         suites 'src/test/resources/testng.xml'
     }
 
